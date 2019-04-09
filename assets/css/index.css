@@ -51,15 +51,27 @@ text-decoration: none;
     padding-bottom: 20px;
 }
 
-.footer {
-    background-color: #E5E5E5;
-    color: #222121;
+#footer { 
+	background: lightgrey;
 }
-.submit-button {
-    background-color: #205DA5;
-    font-family: Roboto;
-    font-style: normal;
-    font-size: 20px;
-    border: none;
-    color: #ffffff;
+
+a{
+	color:#000000;
+	}
+	
+h4{
+	font-weight: normal;
+	font-size: 1em;
 }
+
+#email{
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+
+button {
+	background-color: black;
+	}
