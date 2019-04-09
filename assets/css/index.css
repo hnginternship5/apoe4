@@ -50,3 +50,16 @@ text-decoration: none;
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+.footer {
+    background-color: #E5E5E5;
+    color: #222121;
+}
+.submit-button {
+    background-color: #205DA5;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 20px;
+    border: none;
+    color: #ffffff;
+}
