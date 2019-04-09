@@ -63,3 +63,66 @@ text-decoration: none;
     border: none;
     color: #ffffff;
 }
+
+/*seyi css */
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+:root{
+  --mainBlue:#205DA5;
+  --subBlack:#222121;
+}
+
+
+/* feature */
+.feature-icon{
+  border: solid 1px var(--mainBlue);
+}
+
+.feature-icon img {
+    width: 2rem;
+    height: 2.2rem;
+}
+
+.feature-icon p {
+    color: var(--subBlack);
+}
+
+h6 {
+    font-size: 1.25rem!important;
+}
+
+.feature-icon:hover{
+  color: var(--mainYellow);
+}
+
+.feature-icon feature {
+    font-size: 2rem;
+}
+.feature-underline{
+  width: 4rem;
+  height: 0.3rem;
+  background: var(--mainBlue);
+  
+}
+
+/*Bootsrap defautl changes */
+.p-2 {
+    padding: 1.3rem!important;
+}
+
+.text-muted {
+    color: var(--subBlack)!important;
+    line-height: 1.7rem;
+}
+
+.w-75 {
+    width: 100%!important;
+}
+
+@media screen and (max-width: 400px) {
+  .feature-underline, .feature h1 {
+    margin-left: 80px!important;
+  }
+}
+
+/*end of seyi css*/
