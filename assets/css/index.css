@@ -71,6 +71,35 @@ margin-top: 50px;
     padding-bottom: 20px;
 }
 
+.mobile-cont {
+    padding-bottom: 150px;
+}
+
+.download-grp {
+    width: 50%;
+    height: 68px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.download {
+    width: 45%;
+    height: 100%;
+    border-radius: 10px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.apple {
+    background-image: url(../img/apple.png);
+}
+
+.android {
+    background-image: url(../img/android.png);
+}
+
 #footer { 
 	background: #2A56C6;
 	padding-top:20px;
@@ -155,8 +184,7 @@ button {
 }
 
 .feature-icon img {
-    width: 2rem;
-    height: 2.2rem;
+    height: 2rem;
 }
 
 .feature-icon p {
