@@ -51,8 +51,33 @@ text-decoration: none;
     padding-bottom: 20px;
 }
 
-.mobile-img {
-    width: 300px;
+.mobile-cont {
+    padding-bottom: 150px;
+}
+
+.download-grp {
+    width: 50%;
+    height: 68px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.download {
+    width: 45%;
+    height: 100%;
+    border-radius: 10px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.apple {
+    background-image: url(../img/apple.png);
+}
+
+.android {
+    background-image: url(../img/android.png);
 }
 
 #footer { 
