@@ -1,13 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
     padding-left: 20px;
     padding-right: 20px;
 }
-.navbar{
-    background-color: #FFFFFF
-}
+
 .nav-link{
-color: black;
+color: #fff;
 font-weight: 500;
 font-size: 20px;
 margin: 5px;
@@ -21,6 +24,23 @@ opacity: 0.7;
 
 .header{
     margin-top: 60px;
+ }
+
+ .heading{
+    background:url('/assets/img/header.png') no-repeat !important;
+    padding: 50px 50px;
+    /* background-color: #2A56C6; */
+    background-size: cover;
+    background-position: center;
+    /* width: 100vw; */
+    height: 100vh;
+ }
+
+.feature .container-fluid{
+    background-color: #FFFFFF !important;
+}
+.container-fluid{
+    background-color: #2A56C6 !important;
 }
 
 .header-link{
@@ -30,16 +50,16 @@ padding: 10px 20px;
 text-decoration: none;
 }
 .header-text{
-    color: #222121;
+    color: #fff;
     font-size: 16px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 .header-heading{
     font-weight: bold;
-    color: #222121;
+    color: #fff;
     padding-top: 60px;
-
+margin-top: 50px;
 }
 .header a {
     text-decoration: none;
@@ -51,11 +71,48 @@ text-decoration: none;
     padding-bottom: 20px;
 }
 
+.mobile-cont {
+    padding-bottom: 150px;
+}
+
+.download-grp {
+    width: 50%;
+    height: 68px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.download {
+    width: 45%;
+    height: 100%;
+    border-radius: 10px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.apple {
+    background-image: url(../img/apple.png);
+}
+
+.android {
+    background-image: url(../img/android.png);
+}
+
 #footer { 
-	background: #E5E5E5;
+	background: #2A56C6;
 	padding-top:20px;
 	padding-left:15px;
 	padding-bottom: 30px;
+}
+.list-unstyled a{
+    color: #fff !important;
+    font-style:normal;
+}
+
+.track{
+    padding: 50px 50px;
 }
 
 a{
@@ -63,15 +120,22 @@ a{
 	}
 	
 h4{
+    color: #FFFFFF;
 	font-weight: normal;
 	font-size: 1em;
 }
+h5{
+    color: #FFFFFF  
+}
+#Awe {
+   color: #2A56C6 !important;
+}
 
 #email{
-  width: 100%;
-  padding: 12px;
-  margin: 8px 0;
-  box-sizing: border-box;
+  width:100%;
+  padding:12px;
+  margin:8px 0;
+  box-sizing:border-box;
 }
 
 
@@ -120,8 +184,7 @@ button {
 }
 
 .feature-icon img {
-    width: 2rem;
-    height: 2.2rem;
+    height: 2rem;
 }
 
 .feature-icon p {
