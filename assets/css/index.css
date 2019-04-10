@@ -1,9 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: 'Lato', sans-serif;
     padding-left: 20px;
     padding-right: 20px;
@@ -16,21 +17,17 @@ body{
     margin: 5px;
 }
 
-
-
-
-
-.nav-link:hover{
-color: black;
-opacity: 0.7;
+.nav-link:hover {
+    color: black;
+    opacity: 0.7;
 }
 
-.header{
+.header { 
     margin-top: 60px;
  }
 
- .heading{
-	padding: 50px 50px;
+.heading {
+    padding: 50px 50px;
     /* background-color: #2A56C6; */
     background-size: cover;
     background-position: center;
@@ -38,30 +35,33 @@ opacity: 0.7;
     height: 100vh;
 }
 
-.header-link{
+.header-link {
     background: #6C63FF;
-border-radius: 10px;
-padding: 10px 20px;
-text-decoration: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
 }
-.header-text{
+
+.header-text {
     color: #222121;
     font-size: 16px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.header-heading{
+
+.header-heading {
     font-weight: bold;
     color: #222121;
     padding-top: 60px;
-margin-top: 50px;
+    margin-top: 50px;
 }
+
 .header a {
     text-decoration: none;
     color: #FFFFFF;
 }
 
-.header-img{
+.header-img {
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -102,29 +102,30 @@ margin-top: 50px;
 	padding-bottom: 30px;
 }
 
-
 .track{
     padding: 50px 50px;
 }
 
-a{
-	color:#000000;
-	font-style:normal;
-	}
+a {
+    color:#000000;
+    font-style:normal;
+}
 	
-h4{
+h4 {
     color: #000000;
 	font-weight: normal;
 	font-size: 1em;
 }
-h5{
-    color: #FFFFFF ;
+
+h5 {
+    color: #FFFFFF;
 }
+
 #Awe {
    color: #2A56C6 !important;
 }
 
-#email{
+#email {
   width:100%;
   padding:12px;
   margin:8px 0;
@@ -134,24 +135,24 @@ h5{
 
 
 button {
-	background-color: black;
-	}
+    background-color: black;
+}
 	
-#ig{
-	padding-right:20px;
-	}
+#ig {
+    padding-right:20px;
+}
 
-#fb{
+#fb {
 	padding-right:20px;
-	}
+}
 
-#tw{
-	padding-right:20px;
-	}
+#tw {
+    padding-right:20px;
+}
 
-#yt{
-	padding-right:20px;
-	}
+#yt {
+    padding-right:20px;
+}
 
 .submit-button {
     background-color: #205DA5;
@@ -162,15 +163,12 @@ button {
     color: #ffffff;
 }
 
-
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 
 :root{
   --mainBlue:#205DA5;
   --subBlack:#222121;
 }
-
-
 
 .feature-icon{
   border: solid 1px var(--mainBlue);
