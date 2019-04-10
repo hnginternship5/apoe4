@@ -51,10 +51,51 @@ text-decoration: none;
     padding-bottom: 20px;
 }
 
-.footer {
-    background-color: #E5E5E5;
-    color: #222121;
+#footer { 
+	background: #E5E5E5;
+	padding-top:20px;
+	padding-left:15px;
+	padding-bottom: 30px;
 }
+
+a{
+	color:#000000;
+	}
+	
+h4{
+	font-weight: normal;
+	font-size: 1em;
+}
+
+#email{
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+
+
+button {
+	background-color: black;
+	}
+	
+#ig{
+	padding-right:20px;
+	}
+
+#fb{
+	padding-right:20px;
+	}
+
+#tw{
+	padding-right:20px;
+	}
+
+#yt{
+	padding-right:20px;
+	}
+
 .submit-button {
     background-color: #205DA5;
     font-family: Roboto;
@@ -62,4 +103,65 @@ text-decoration: none;
     font-size: 20px;
     border: none;
     color: #ffffff;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+:root{
+  --mainBlue:#205DA5;
+  --subBlack:#222121;
+}
+
+
+
+.feature-icon{
+  border: solid 1px var(--mainBlue);
+}
+
+.feature-icon img {
+    width: 2rem;
+    height: 2.2rem;
+}
+
+.feature-icon p {
+    color: var(--subBlack);
+}
+
+h6 {
+    font-size: 1.25rem!important;
+}
+
+.feature-icon:hover{
+  color: var(--mainYellow);
+}
+
+.feature-icon feature {
+    font-size: 2rem;
+}
+.feature-underline{
+  width: 4rem;
+  height: 0.3rem;
+  background: var(--mainBlue);
+  
+}
+
+/*Bootsrap defautl changes */
+.p-2 {
+    padding: 1.3rem!important;
+}
+
+.text-muted {
+    color: var(--subBlack)!important;
+    line-height: 1.7rem;
+}
+
+.w-75 {
+    width: 100%!important;
+}
+
+@media screen and (max-width: 400px) {
+  .feature-underline, .feature h1 {
+    margin-left: 80px!important;
+  }
 }
