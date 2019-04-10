@@ -51,6 +51,10 @@ text-decoration: none;
     padding-bottom: 20px;
 }
 
+.mobile-img {
+    width: 300px;
+}
+
 #footer { 
 	background: #E5E5E5;
 	padding-top:20px;
