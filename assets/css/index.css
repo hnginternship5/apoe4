@@ -6,8 +6,10 @@
 
 body {
     font-family: 'Lato', sans-serif;
-    padding-left: 20px;
-    padding-right: 20px;
+}
+
+nav.fixed-top {
+    padding: 0 50px;
 }
 
 .nav-link {
@@ -71,8 +73,8 @@ body {
 }
 
 .download-grp {
-    width: 50%;
-    height: 68px;
+    width: 40%;
+    height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -80,7 +82,7 @@ body {
 
 .download {
     width: 45%;
-    height: 100%;
+    height: 74%;
     border-radius: 10px;
     background-size: contain;
     background-position: center;
@@ -95,11 +97,26 @@ body {
     background-image: url(../img/android.jpg);
 }
 
-#footer { 
+footer { 
 	background: #E5E5E5;
-	padding-top:20px;
-	padding-left:15px;
-	padding-bottom: 30px;
+	padding:20px;
+}
+
+.social-links-grp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+
+.footer-icon {
+    border: 1px solid #222;
+    border-radius: 50%;
+    padding: 6px;
+    font-size: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .track{
@@ -126,32 +143,14 @@ h5 {
 }
 
 #email {
-  width:100%;
-  padding:12px;
-  margin:8px 0;
-  box-sizing:border-box;
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }
-
-
 
 button {
     background-color: black;
-}
-	
-#ig {
-    padding-right:20px;
-}
-
-#fb {
-	padding-right:20px;
-}
-
-#tw {
-    padding-right:20px;
-}
-
-#yt {
-    padding-right:20px;
 }
 
 .submit-button {
@@ -214,8 +213,26 @@ h6 {
     width: 100%!important;
 }
 
-@media screen and (max-width: 400px) {
-  .feature-underline, .feature h1 {
-    margin-left: 80px!important;
-  }
+.container-fluid {
+    padding: 0 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .feature-underline, .feature h1,
+    .mobile-cont h1 {
+        font-size: 1.5rem;
+    }
+
+    .download-grp, .social-links-grp {
+        width: 100%;
+    }
+
+    .container-fluid, nav.fixed-top {
+        padding: 0 15px;
+    }
+
+    .reset-margin {
+        margin: 0 0 !important;
+    }
+
 }
