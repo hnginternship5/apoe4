@@ -1,206 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/css/framework/bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/framework/bootstrap/bootstrap-grid.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- main css -->
+  <link rel="stylesheet" href="css/main.css">
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
 
-    <title>Apoe4 | Home</title>
+  <!-- font awesome -->
+  <script src="js/all.js"></script>
+  <title>project</title>
+  <style>
+  </style>
 </head>
+
 <body>
-    <!-- navbar  -->
-    <nav class="navbar navbar-expand-lg fixed-top bg-white">
-        <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt="Apoe4 logo"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <ion-icon name="menu" class="navbar-toggler-icon"></ion-icon>
-        </button>
-        <div class="collapse navbar-collapse " id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#feature">Features</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#mobileapp">Product</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-            </ul>
+   <!-- nav element -->
+  <nav class="navbar container navbar-expand-lg px-3" id="navBar">
+    <a href="#" class="navbar-brand">
+      <img src="img/logo.png" alt="logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle='collapse' data-target='#myNav'>
+      <span class="navbar-icon">
+        <i class="fas fa-bars"></i>
+      </span>
+    </button>
+    <!--  -->
+    <div class="collapse navbar-collapse justify-content-end" id="myNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a href="#navBar" class="nav-link">
+            Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#skills" class="nav-link">
+            Features
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#inventory" class="nav-link">
+            Product
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#featured" class="nav-link">
+            Contact
+          </a>
+        </li>
+      </ul>
+      <!-- end of nav element -->
+      <!-- header section -->
+    </div>
+  </nav>
+   <!-- header section -->
+  <header class="header" id="header">
+    <div class="container">
+      <!-- end of section title -->
+      <div class="row">
+        <!-- featured info -->
+        <div class="col-10 mx-auto col-lg-6 featured-info my-3">
+          <div class="row height-max align-items-left">
+            <div class="col text-left pr-5">
+              <h2 class="font-weight-bold mt-5 title">Leading the way<br> in Alzheimers Reasearch</h2>
+              <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+              <button>Learn more<a href="" class="title-icon d-inline-block mx-2">
+                </a></button>
+            </div>
+          </div>
         </div>
-    </nav>
+        <!-- featured img -->
+        <div class="col-10 mx-auto col-lg-6 featured-img align-self-center my-3">
+          <!-- img container -->
+          <div class="img-container">
+            <img src="img/doctors.png" alt="" class="img-fluid featured-photo">
+          </div>
+        </div>
 
-    <!-- main content -->
-    <main class="container-fluid">
+      </div>
+    </div>
+  </header>
+  <!--end of  header section -->
 
-        <!-- header section -->
-        <header class="header">
-            <div class="row">
-                <div class="col-md-4">
-                    <h1 class="header-heading">
-                        Leading the Way in Alzheimers Research
-                    </h1>
-                    <p class="header-text">
-                        A progressive disease that destroys memory and other important mental functions.
-                    </p>
-                    <a  href="#" class="btn btn-primary header-link">
-                        Learn More
-                    </a>
-                </div>
-                <div class="col-md-2"></div>
-                <div class="col-md-6 ">
-                    <img class="img-fluid header-img" src="assets/img/undraw_medicine_b1ol.png" alt="medicine" >
-                </div>
-            </div>
-        </header>
-
-        <!-- feature section -->
-        <section class="feature py-5" id="feature">
-            <div class="container-fluid">
-                <!-- section title -->
-                <div class="row mb-5">
-                    <div class="m-auto">
-                        <h1 class="font-weight-bold align-self-center mx-1">Awesome Features</h1>
-                        <div class="feature-underline"></div>
-                    </div>
-                </div>
-                <!-- end of section title -->
-                <div class="row">
-                    <!-- single feature -->
-                    <div class="col-sm-4 col-lg-4 text-center my-3">
-                        <a href="" class="feature-icon p-2 rounded-circle">
-                            <img src="assets/img/medical-record.png" class="my-3">
-                        </a>
-                        <h6 class="font-weight-bold my-3">Absolute Privacy</h6>
-                        <p class="w-75 mx-auto text-muted">
-                            High serum total cholesterol and high blood pressure in mid-life are independent risk factors which together can nearly 
-                            triple the risk that the individual will later develop Alzheimer’s. 
-                            The Apoe4 initiative is focused on using digital markers to detect early onset Alzheimer’s.
-                        </p>
-                    </div>
-                    <!-- end of single feature -->
-                    <!-- single skill -->
-                    <div class="col-sm-4 col-lg-4 text-center my-3">
-                        <a href="" class="feature-icon p-2 rounded-circle">
-                            <img src="assets/img/box.png" class="my-3">
-                        </a>
-                        <h6 class=" font-weight-bold my-3">Habit tracking</h6>
-                        <p class="w-75 mx-auto text-muted">
-                            We notify you about a strange environment factor such as 
-                            temerature or weather that is likely to arm you and in turns
-                            get you closer to having Azheimers.
-                        </p>
-                    </div>
-                    <!-- end of single feature -->
-                    <!-- single feature -->
-                    <div class="col-sm-4 col-lg-4 text-center my-3">
-                        <a href="" class="feature-icon p-2 rounded-circle">
-                            <img src="assets/img/heart.png" class="my-3">
-                        </a>
-                        <h6 class=" font-weight-bold my-3">Memory Test</h6>
-                        <p class="w-75 mx-auto text-muted">
-                            With some memory builder and cognitive test games incorporated in the app,
-                            it helps you to stay fit so as to avoid memory loss and 
-                            improves your thinking.
-                        </p>
-                    </div>
-                    <!-- end of single feature -->
-                </div>
-            </div>
-        </section>
-        <!-- end of feature section -->
-
-        <!-- mobile application -->
-        <section id="mobileapp" class="mb-5">
-            <div class="container-fluid mobile-cont">
-                <!-- section title -->
-                <div class="row mb-5">
-                    <div class="m-auto">
-                        <h1 class="font-weight-bold align-self-center mx-1">Our Mobile Application</h1>
-                        <div class="feature-underline"></div>
-                    </div>
-                </div>
-                <!-- end of section title -->
-
-                <div class="row">
-                    <div class="col-md-8 mt-5 reset-margin">
-                        <p style="text-align: justify;">You can download our mobile application on the Apple 
-                        or Google playstore to have access to numerous awesome features.
-                        We believe health is wealth, that's why our team of great researchers are working so hard everyday
-                        to provide a better experience for you while using the app. Dont forget to click one of the button below.</p>
-                        <div class="download-grp mt-5 mb-5">
-                            <a href="#" class="download apple"></a>
-                            <a href="#" class="download android"></a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 text-center">
-                        <img class="img-fluid mobile-img" src="assets/img/Group-12.png" >
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- end mobile application -->
-
-    </main>
+  <section class="feature py-5" id="feature">
+    <div class="container">
+      <!-- section title -->
+      <div class="row mb-5">
+        <div class="m-auto">
+          <h1 class=" align-self-center mx-1">Awsome Features</h1>
+         <div class="feature-underline"></div>
+        </div>
+      </div>
+      <!-- end of section title -->
+      <div class="row">
+        <!-- single feature -->
+        <div class="col-sm-4 col-lg-4 text-center my-3">
+          <a href="" class="feature-icon p-2 rounded-circle">
+            <img src="img/medical-record.png" class="my-3">
+          </a>
+          <h6 class="font-weight-bold my-3">Time Tracking</h6>
+          
+          <p class="w-75 mx-auto text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, aperiam!</p>
+        </div>
+        <!-- end of single feature -->
+        <!-- single skill -->
+        <div class="col-sm-4 col-lg-4 text-center my-3">
+          <a href="" class="feature-icon p-2 rounded-circle">
+             <img src="img/box.png" class="my-3">
+          </a>
+          <h6 class=" font-weight-bold my-3">Time Tracking</h6>
+          <p class="w-75 mx-auto text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, aperiam!</p>
+        </div>
+        <!-- end of single feature -->
+        <!-- single feature -->
+        <div class="col-sm-4 col-lg-4 text-center my-3">
+          <a href="" class="feature-icon p-2 rounded-circle">
+            <img src="img/heart.png" class="my-3">
+          </a>
+          <h6 class=" font-weight-bold my-3">Time Tracking</h6>
       
-	<!-- Footer -->
-    <footer class="mt-5 reset-margin" id="contact">
-        <div class="container-fluid">
-            <div class="row text-center text-sm-left text-xs-center text-md-left">
-                <div class="col-md-2">
-                    <h4>PRODUCT</h4>
-                    <ul class="list-unstyled">
-                        <li> <a href="#">Payment</a></li>
-                        <li> <a href="#">Price</a></li>
-                        <li> <a href="#">Subscription</a></li>
-                        <li> <a href="#">Customers</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-2 ">
-                    <h4>COMPANY</h4>
-                    <ul class="list-unstyled">
-                        <li> <a href="#">About</a></li>
-                        <li> <a href="#">Contact</a></li>
-                        <li> <a href="#">Blog</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-2">
-                    <h4>RESOURCES</h4>
-                    <ul class="list-unstyled">
-                        <li> <a href="#">Get Support</a></li>
-                        <li> <a href="#">Contact</a></li>
-                        <li> <a href="#">Privacy & Terms</a></li>
-                    </ul>
-                </div>
-                <div class="offset-md-2 col-md-4">
-                    <h4>SUSCRIBE TO OUR NEWSLETTER</h4>
-                    <div class="input-group mb-3">
-                      <input type="email" class="form-control" placeholder="Enter your email" aria-label="email" aria-describedby="email">
-                      <div class="input-group-append">
-                        <span class="input-group-text" style="background-color: #0f4d92; color: #ffffff;" id="email">Enter</span>
-                      </div>
-                    </div>
-                    <div class="social-links-grp">
-                      <a href="#" class="footer-icon"><ion-icon name="logo-instagram" id="ig" ></ion-icon></a> 
-                      <a href="#" class="footer-icon"><ion-icon name="logo-facebook" id="fb" ></ion-icon></a>
-                      <a href="#" class="footer-icon"><ion-icon name="logo-twitter" id="tw" ></ion-icon></a> 
-                      <a href="#" class="footer-icon"><ion-icon name="logo-youtube" id="yt" ></ion-icon></a>
-                    </div>
-                    
-                </div>
-            </div>
+          <p class="w-75 mx-auto text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, aperiam!</p>
         </div>
-    </footer>
-    <!-- end footer -->
+        <!-- end of single feature -->
+      </div>
+    </div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-	<script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
-    <script src="assets/js/framework/bootstrap/bootstrap.min.js"></script>
+  </section>
+  <!-- end of feature section -->
+
+  <section class="mobile py-5" id="mobile">
+    <div class="container">
+      <!-- section title -->
+      <div class="row col-10 mx-auto mb-5">
+        <div class="mx-auto">
+          <h1 class="text-capitalize align-self-center mx-1">our mobile application</h1>
+         <div class="feature-underline"></div>
+        </div>
+      </div>
+      <!-- end of section title -->
+      <div class="row">
+       
+        <!-- mobile -->
+        <div class="col-10 mx-auto col-lg-9 text-left my-3">
+          <p class="w-75 mx-auto text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, aperiam! Lorem ipsum dolor sit amet, consectetur adderhukk gses serw wear tfhhn ikly teyh iuhjkik ipiscng elit, sed do eiusmod tempor incididt brtseryl gdrw hyet gredg juyfb dder ujkl gresc unt ut labore et dolore magna aliqua dotrgtt gretaer gtrar ipsij lerdf drese gtre fddtg ftre tg fthytf berde frefghh fderb ggfdr hgfddd jygyj btreatesr ipsum reyh fers yljy bseuytgb gcfrfv </p>
+
+        </div>
+        <!-- end of single feature -->
+        <!-- single feature -->
+        <div class="col-lg-3 mb-5 text-center my-3">
+            <img src="img/apoefone.png" class="my-3 phone">
+        </div>
+        <div class="col mx-auto download-icon">
+          <img src="img/apple-store-app-icon.png" class="my-3">
+          <img src="img/downloadGOOGLE.png" class="my-3">
+        </div>
+        <!-- end of single feature -->
+      </div>
+    </div>
+
+  </section>
+  <!-- end of feature section -->
+  <!-- end of feature section -->
+      </div>
+     <footer>
+  <div class="container">
+    <div class="row footer-items">
+
+      <div class="col-md-2 col-sm-2">
+        <div class="footer-item">
+          <h4 class="text-uppercase">Product</h4><br>
+          <p><a href="#">Payment</a><br>
+            <a href="#">Price</a><br>
+            <a href="#">Subscription</a><br>
+            <a href="#">Customers</a>
+        </div>
+      </div>
+
+
+      <div class="col-md-2 col-sm-2">
+        <div class="footer-item">
+          <h4 class="text-uppercase">company</h4><br>
+          
+            <p><a href="#">About</a><br>
+            <a href="#">Contact</a><br>
+            <a href="#">Blog</a>
+          
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-4">
+        <div class="footer-item">
+          <h4 class="text-uppercase">resources</h4><br>
+          <p><a href="#">Get support</a><br>
+            <a href="#">Contact</a><br>
+            <a href="#">Privacy & Terms</a>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-4">
+        <div class="footer-item subscribe-widget">
+          <h4>Subscribe to our Newsletter</h4><br>
+          <form>
+            <label>
+              <input type="text" name="subscribe-email" placeholder="Your Email Address">
+            </label>
+            <button class="button button-primary">SUBSCRIBE</button>
+          </form>
+
+          <div class="nav-icons d-none d-lg-block">
+            <a href="#" class="nav-icon">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="#" class="nav-icon">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="nav-icon">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="nav-icon">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</footer>
+
+<!-- jquery -->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- script js -->
+  <script src="js/main.js"></script>
 </body>
+
 </html>
+
