@@ -15,13 +15,16 @@ p {
   font-size: 1.2rem;
 }
 
-header button {
+header button, 
+.header-btn,
+.header-btn:hover {
   background-color: #6C63FF;
   color: #fff;
   border: solid 2px #6C63FF;
   border-radius: .5rem;
   padding: .5rem;
   padding-left: 1.6rem;
+  text-decoration: none;
 }
 
 footer .button {
