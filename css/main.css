@@ -30,9 +30,19 @@ footer .button {
   border: solid 2px #205DA5;
   margin-bottom: 20px;
 }
+
 /*nav */
 .navbar-expand-lg .navbar-nav .nav-link {
-    color: var(--mainBlack)!important;
+    color: var(--mainBlack);
+}
+
+.nav-item.active {
+  color: #6c63ff !important;
+  border-bottom: 4px solid #6c63ff;
+}
+
+.nav-item.active a {
+  color: #6c63ff !important;
 }
 
 .navbar-toggler{
