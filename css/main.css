@@ -23,8 +23,12 @@ header button,
   border: solid 2px #6C63FF;
   border-radius: .5rem;
   padding: .5rem;
-  padding-left: 1.6rem;
+  /* padding-left: 1.6rem; */
   text-decoration: none;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
 }
 
 footer .button {
