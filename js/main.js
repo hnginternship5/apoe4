@@ -6,13 +6,14 @@ scrollUp();};
 function scrollUp(){
 	if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100){
 		document.getElementById("scrollBut").style.display = "block";
-		}
-		else {
-		document.getElementById("scrollBut").style.display = "none";}
+	}
+	else {
+		document.getElementById("scrollBut").style.display = "none";
+	}
 };
 //create function which takes user to the top upon clicking
 
 function scrollToTop(){
 	document.body.scrollTop =  0;
-	document.documentElement.body.scrollTop = 0;
-	}
+	document.documentElement.scrollTop = 0;
+}
