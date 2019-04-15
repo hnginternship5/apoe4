@@ -21,8 +21,10 @@ header button {
   border: solid 2px #6C63FF;
   border-radius: .5rem;
   padding: .5rem;
+  padding-left: 1.6rem;
 }
-footer button {
+
+footer .button {
   background-color: #205DA5;
   color: #fff;
   border: solid 2px #205DA5;
@@ -130,6 +132,12 @@ footer .nav-icon {
   padding: 13px 0px 13px 0px;
   margin: 5px;
   margin-bottom: 35px;
+  color: #222;
+  text-decoration: none;
+}
+
+footer input {
+  padding-left: 15px;
 }
 
 footer .copyright .other-links ul li {
