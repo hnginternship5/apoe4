@@ -35,6 +35,11 @@ footer .button {
 }
 
 /*nav */
+.navbar-brand img {
+  height: 64px;
+  max-width: 100%;
+}
+
 .navbar-expand-lg .navbar-nav .nav-link {
     color: var(--mainBlack);
 }
