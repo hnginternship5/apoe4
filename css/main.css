@@ -9,10 +9,20 @@
 body {
   font-size: 1.5rem;
   line-height: 2rem;
+  font-family: 'Rubik', sans-serif;
+
 }
 
 p {
   font-size: 1.2rem;
+}
+
+.header{
+  margin-top: 80px;
+}
+
+.navbar{
+  background-color: white;
 }
 
 header button, 
@@ -23,6 +33,7 @@ header button,
   border: solid 2px #6C63FF;
   border-radius: .5rem;
   padding: .5rem;
+  font-size: 20px;
   /* padding-left: 1.6rem; */
   text-decoration: none;
   display: flex !important;
@@ -30,7 +41,11 @@ header button,
   align-items: center;
   width: 150px;
 }
-
+.header-btn:hover{
+  opacity: 0.8;
+  background-color: #6C63FF;
+  color: #fff;
+}
 footer .button {
   background-color: #205DA5;
   color: #fff;
