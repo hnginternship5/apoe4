@@ -78,6 +78,10 @@ footer .button {
 .nav-link{
   color: var(--mainBlack);
   text-transform: capitalize;
+  font-size: 20px;
+  margin-right: 5px;
+  margin-left: 5px;
+  font-weight: 595;
 }
 .nav-link:hover{
   color: var(--mainBlue);
@@ -172,7 +176,12 @@ footer .nav-icon {
   color: #222;
   text-decoration: none;
 }
-
+footer .heading{
+  font-size: 20px;
+  color: black;
+  font-weight: 590;
+  font-family: 'Rubik', sans-serif;
+}
 footer input {
   padding-left: 15px;
 }
