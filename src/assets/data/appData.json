@@ -1,0 +1,12 @@
+{
+    "appName":"Apoe4",
+    "appShortDescription":"",
+    "appLongDec":"",
+    "socialLinks":[
+        {
+            "name" : "Facebook",
+            "link" : "https://www.facebook.com/",
+            "icon" : "fab fa-facebook"
+        }
+    ]
+}
