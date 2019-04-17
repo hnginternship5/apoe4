@@ -1,5 +1,6 @@
 @import "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css";
 @import "https://use.fontawesome.com/releases/v5.7.0/css/all.css";
+@import "https://fonts.googleapis.com/css?family=Poppins:400,900')";
 
 @font-face {
     font-family: google-sans;
@@ -9,6 +10,11 @@
 :root{
     --mainBlue:#1B8CFB;
     --mainBlack:#222121;
+}
+
+body {
+    margin-top: 6%;
+    font-family: 'Poppins', sans-serif;
 }
 
 .google-font{

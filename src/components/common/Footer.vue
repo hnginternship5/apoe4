@@ -11,18 +11,21 @@
   	</div>
   	<div id="footer-link">
   		<ul>
-  			<li><a href="#">Home</a></li>
-  			<li><a href="#">About</a></li>
-  			<li><a href="#">Contact</a></li>
-  			<li><a href="#">Privacy</a></li>
+			  <li
+              v-for="(link, i) in links"
+              :key="i"
+              class="col"
+            >
+              <router-link tag="a" class="" class-active="active" :to="link.to" exact>{{ link.text }}</router-link>
+          </li>
   		</ul>
   		<hr>
   		<div id="footer-text">
   			<span>&copy; 2019, All rights reserved</span>
   			<div id="social">
-  				<img src="@/assets/img/fb.png" alt="facebook">
-  				<img src="@/assets/img/tw.png" alt="twitter">
-  				<img src="@/assets/img/Inst.png" alt="instagram">
+  				<img src="@/assets/img/fb.png" alt="facebook" />
+  				<img src="@/assets/img/tw.png" alt="twitter" />
+  				<img src="@/assets/img/Inst.png" alt="instagram" />
   			</div>
   		</div>
   	</div>
