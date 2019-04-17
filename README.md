@@ -24,6 +24,11 @@ since having an idea of the state of your health is just one click away.
 
 ## Getting Started
 1. [Fork repository](https://github.com/hnginternship5/apoe4/fork) and clone it locally
+1. Install dependencies if you dont have them install.
+```
+npm install -g vue-cli
+npm install -g @vue/cli-service
+```
 1. Install project dependencies: `npm install` 
 1. Compiles and hot-reloads for development: `npm run serve`
 1. For the production: `npm run build` and then one dir will be created `dist`
