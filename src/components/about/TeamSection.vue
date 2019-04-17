@@ -71,6 +71,14 @@
   text-align: center;
 }
 
+@media screen and (max-width: 800px) {
+
+    #img-area {
+        grid-template-columns: 1fr;
+    }
+
+}
+
 </style>
 
 <script>

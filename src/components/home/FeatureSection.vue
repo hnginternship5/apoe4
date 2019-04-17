@@ -107,7 +107,7 @@
         color: #222121;
     }
 
-    /* responsive css for page */
+     /* responsive css for page */
 
     @media screen and (max-width: 800px) {
 

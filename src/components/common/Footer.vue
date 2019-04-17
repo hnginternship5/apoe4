@@ -24,7 +24,7 @@
 			</div>
 			<div class="row">
 				<div id="footer-text" class="col-md-12 py-3">
-					<span class="" style="color:#fff;font-size:12px;">&copy; 2019, All rights reserved</span>
+					<span class="col-md-4" style="color:#fff;font-size:12px;">&copy; 2019, All rights reserved</span>
 					<div id="social" class="col-md-2 offset-md-6">
 						<a href=""><img src="@/assets/img/fb.png" alt="facebook" /></a>
 						<a href=""><img src="@/assets/img/tw.png" alt="twitter" /></a>
@@ -108,8 +108,8 @@
 
 	#social img {
 		max-width: 100%;
-		height: 48px;
-		width: 48px;
+		height: 16px;
+		width: 16px;
 	}
 
 

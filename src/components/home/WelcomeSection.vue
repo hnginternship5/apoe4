@@ -32,6 +32,7 @@
 <style scoped>
 	.welcome {
         background: linear-gradient(180deg, #BEE4FF 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
+        margin-bottom: 6rem !important;
 	}
 	
 
@@ -61,6 +62,17 @@
         line-height: normal;
         text-align: left;
         color: #222121;
+    }
+
+     /* responsive css for page */
+
+    @media screen and (max-width: 800px) {
+
+        .bold-text {
+            font-weight: 800;
+            font-size: 24px;
+        }
+
     }
 </style>
 
