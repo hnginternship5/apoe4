@@ -1,5 +1,5 @@
 <template>
-    <div class="container-fluid">
+    <div class="container-fluid" id="team">
         <div class="container">
             <!-- ALL COMPONENT MARKUP GOES HERE-->
             <h1 class="team-title">Meet the Team</h1>
@@ -81,7 +81,7 @@
 #img-area div {
 	display: inline;
 	float: left;
-	margin-left: 100px;
+  margin-left: 100px;
 }
 #img-area div h4, #img-area div p {
 	text-align: center;
@@ -98,7 +98,7 @@
 	font-size: 16px;
 	font-weight: 600;
 }
-.img-area:after {
+#team .img-area:after {
     content: "";
     display: block;
     clear: both;

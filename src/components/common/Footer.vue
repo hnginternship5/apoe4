@@ -106,10 +106,10 @@
 	#footer-link ul li a {
 		color: #ffffff;
 	}
-	li {
+	#footer-link li {
 		list-style-type: none;
 	}
-	 a {
+	#footer-link a {
 		text-decoration: none;
 	}
 	hr {

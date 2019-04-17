@@ -93,6 +93,7 @@
 
     .feat-title {
         font-size: 1.4rem;
+        font-weight: 600;
     }
 
     .feat-desc-long {
