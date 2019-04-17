@@ -2,15 +2,15 @@
     <div class="container-fluid">
         <div class="container">
             <!-- ALL COMPONENT MARKUP GOES HERE-->
-            <h1>Meet the Team</h1>
-          <h3>The team ready and waiting to talk about the new APoe4 App and subsequent ideas.</h3>
+            <h1 class="team-title">Meet the Team</h1>
+            <h3 class="team-desc">The team ready and waiting to talk about the new APoe4 App and subsequent ideas.</h3>
           <div id="img-area">
-	          <span><img src="@/assets/img/team/letoya2.jpg" class="rounded-circle"><h4>Osato Letoya Joy</h4><p>Team Lead</p></span>
-	            <span><img src="@/assets/img/team/s3.jpg" class="rounded-circle"><h4>Seyi Imanah</h4><p>Front-End</p></span>
-	            <span><img src="@/assets/img/team/ahmzyjazzy.jpg" class="rounded-circle"><h4>Ahmed Olarenwaju</h4><p>Front-End</p></span>
-	            <span><img src="@/assets/img/team/john.jpg" class="rounded-circle"><h4>John Ademoye</h4><p>Front-End</p></span>
-	            <span><img src="@/assets/img/team/zazah.jpg" class="rounded-circle"><h4>Abdulhakeem Abdulazeez</h4><p>Front-End</p></span>
-	            <span><img src="@/assets/img/team/jeff.jpg" class="rounded-circle"><h4>Jeffrey Ogah</h4><p>Developer</p></span>
+	            <div class="team-member"><img src="@/assets/img/team/letoya2.jpg" class="rounded-circle py-5"><h4 class="member-name">Osato Letoya Joy</h4><p>Team Lead</p></div>
+	            <div class="team-member"><img src="@/assets/img/team/s3.jpg" class="rounded-circle py-5"><h4 class="member-name">Seyi Imanah</h4><p>Front-End</p></div>
+	            <div class="team-member"><img src="@/assets/img/team/ahmzyjazzy.jpg" class="rounded-circle py-5"><h4 class="member-name">Ahmed Olarenwaju</h4><p>Front-End</p></div>
+	            <div class="team-member"><img src="@/assets/img/team/john.jpg" class="rounded-circle py-5"><h4 class="member-name">John Ademoye</h4><p>Front-End</p></div>
+	            <div class="team-member"><img src="@/assets/img/team/zazah.jpg" class="rounded-circle py-5"><h4 class="member-name">Abdulhakeem Abdulazeez</h4><p>Front-End</p></div>
+	            <div class="team-member"><img src="@/assets/img/team/jeff.jpg" class="rounded-circle py-5"><h4 class="member-name">Jeffrey Ogah</h4><p>Developer</p></div>
         </div>
         </div>
     </div>
@@ -20,13 +20,9 @@
 	@import url('https://fonts.googleapis.com/css?family=Poppins');
 	@import url('https://fonts.googleapis.com/css?family=Nunito+Sans|Poppins');
 
-	html, body {
-  margin: 0;
-  padding: 0;
-}
 
-h1 {
-margin-top: 100px;
+.team-title {
+  margin-top: 100px;
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
@@ -34,10 +30,9 @@ margin-top: 100px;
   line-height: normal;
   text-align: center;
   color: #222121;
-
 }
 
-h3 {
+.team-desc {
   font-family: Nunito Sans;
   font-style: normal;
   font-weight: 600;
@@ -46,18 +41,49 @@ h3 {
   line-height: normal;
   color: #000000;
 }
-img {
-  width: 217px;
-  height: 217px;
-  border-radius: 100%;
-  margin-top: 50px;
+
+#img-area {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0 100px;
+    width: 100%;
+    margin: 50px 0;
+    padding: 0 50px;
 }
-#img-area span {
+
+.team-member {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#img-area img {
+  max-width: 100%;
+}
+
+#img-area img {
+  max-width: 100%;
+}
+
+.member-name {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: normal;
+  text-align: center;
+}
+
+/*
+#img-area div {
 	display: inline;
 	float: left;
 	margin-left: 100px;
 }
-#img-area span h4, #img-area span p {
+#img-area div h4, #img-area div p {
 	text-align: center;
 	font-family: Nunito Sans;
 	font-style: normal;
@@ -68,7 +94,7 @@ img {
 	color: #000000;
 	margin-top: 10px;
 }
-#img-area span p {
+#img-area div p {
 	font-size: 16px;
 	font-weight: 600;
 }
@@ -76,7 +102,7 @@ img {
     content: "";
     display: block;
     clear: both;
-}
+} */ 
 </style>
 
 <script>
