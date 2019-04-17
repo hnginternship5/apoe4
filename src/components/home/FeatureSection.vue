@@ -1,6 +1,6 @@
 <template>
     <div class="container-fluid" id="feature">
-        <div class="container py-5 px-4">
+        <div class="container py-5 px-4 mt-5">
             <div class="row">
                 <div class="col-md-5">
                     <div class="row">
@@ -64,7 +64,6 @@
 
     #feature {
         background: #fdfdfd;
-        height: 600px;
     }
 
     .feature-group-left {
@@ -106,6 +105,22 @@
         line-height: normal;
         text-align: right;
         color: #222121;
+    }
+
+    /* responsive css for page */
+
+    @media screen and (max-width: 800px) {
+
+        .bold-text {
+            font-weight: 800;
+            font-size: 24px;
+        }
+
+        .feature-group-left,
+        .feature-group-right {
+            position: relative;
+            top: 0;
+        }
     }
 
 </style>

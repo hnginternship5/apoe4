@@ -1,6 +1,6 @@
 <template>
   <!-- header section -->
-  <section class="welcome">
+  <section class="welcome mb-5">
     <div class="container">
       <!-- end of section title -->
       <div class="row">
@@ -32,7 +32,6 @@
 <style scoped>
 	.welcome {
         background: linear-gradient(180deg, #BEE4FF 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
-        height: 650px;
 	}
 	
 
