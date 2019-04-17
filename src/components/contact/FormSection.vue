@@ -1,6 +1,8 @@
 <template>
-    <div>
-    
+    <div class="container-fluid">
+        <div class="container">
+            <!-- ALL COMPONENT MARKUP GOES HERE-->
+        </div>
     </div>
 </template>
 

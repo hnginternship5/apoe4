@@ -5,6 +5,33 @@
     font-family: google-sans;
     src: url(assets/fonts/GoogleSans-Regular.ttf);
 }
+
+:root{
+    --mainBlue:#1B8CFB;
+    --mainBlack:#222121;
+}
+
 .google-font{
     font-family: google-sans;
+}
+
+nav .nav-item:hover,
+nav .nav-item.router-link-active,
+nav .nav-item.router-link-exact-active {
+    color: var(--mainBlue);
+}
+
+a,
+a:hover {
+  text-decoration: none !important;
+  color: var(--mainBlack);
+}
+
+.button,
+.button:hover {
+    background-color:  var(--mainBlue);
+    color: #fff;
+    box-shadow: 0px 5px 10px 0px rgba(0,64,128,0.05);
+    text-transform: uppercase;
+    font-weight:600;
 }
