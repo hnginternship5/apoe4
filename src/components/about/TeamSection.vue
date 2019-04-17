@@ -17,15 +17,11 @@
 </template>
 
 <style scoped>
-	@import url('https://fonts.googleapis.com/css?family=Poppins');
-	@import url('https://fonts.googleapis.com/css?family=Nunito+Sans|Poppins');
-
 
 .team-title {
   margin-top: 100px;
-  font-family: Poppins;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 45px;
   line-height: normal;
   text-align: center;
@@ -33,9 +29,7 @@
 }
 
 .team-desc {
-  font-family: Nunito Sans;
   font-style: normal;
-  font-weight: 600;
   font-size: 25px;
   text-align: center;
   line-height: normal;
@@ -66,43 +60,17 @@
 
 #img-area img {
   max-width: 100%;
+  height: 200px;
 }
 
 .member-name {
-  font-family: Nunito Sans;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 600;
   font-size: 22px;
   line-height: normal;
   text-align: center;
 }
 
-/*
-#img-area div {
-	display: inline;
-	float: left;
-  margin-left: 100px;
-}
-#img-area div h4, #img-area div p {
-	text-align: center;
-	font-family: Nunito Sans;
-	font-style: normal;
-	font-weight: 800;
-	font-size: 22px;
-	line-height: normal;
-	text-align: center;
-	color: #000000;
-	margin-top: 10px;
-}
-#img-area div p {
-	font-size: 16px;
-	font-weight: 600;
-}
-#team .img-area:after {
-    content: "";
-    display: block;
-    clear: both;
-} */ 
 </style>
 
 <script>

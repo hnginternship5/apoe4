@@ -1,6 +1,5 @@
 <template>
-            <!-- ALL COMPONENT MARKUP GOES HERE-->
-            <!-- header section -->
+  <!-- header section -->
   <section class="welcome">
     <div class="container">
       <!-- end of section title -->
