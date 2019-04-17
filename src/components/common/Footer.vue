@@ -37,8 +37,8 @@
 		background-color: #1C1C1C;
 		height: 318px;
 		width: 100%;
-		position: absolute;
-		top: 1000px;
+		position: relative;
+		top: 100px;
 	}
 	#logo-area img {
 		height: 48px; 
