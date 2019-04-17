@@ -76,5 +76,10 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 | --- | --- | 
 | Apoe4 | [View Now](https://apoe4.app) |
 
+## Want to contribute
+
+Check [contributing guideline](https://github.com/hnginternship5/apoe4/blob/develop/CONTRIBUTING.md)
+Also read our [code of conduct](https://github.com/hnginternship5/apoe4/blob/develop/CODE_OF_CONDUCT.md)
+
 Project is published under the [MIT license](/LICENSE.md).  
 Feel free to clone and modify repo as you want, but don't forget to add reference to authors :)
