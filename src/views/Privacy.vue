@@ -1,7 +1,6 @@
 <template>
 
   <div>
-    <h1> This is privacy </h1>
     <HeaderSection />
     <DetailSection />
   </div>
