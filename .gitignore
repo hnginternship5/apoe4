@@ -4,3 +4,6 @@
 .vscode
 
 package-lock.json
+
+yarn-error.log
+yarn.lock
