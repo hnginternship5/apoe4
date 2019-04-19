@@ -100,9 +100,8 @@
     }
 
     .bold-text {
-        font-weight: 800;
-        font-size: 45px;
-        line-height: normal;
+        font-weight: bolder;
+        line-height: 50px;
         text-align: right;
         color: #222121;
     }
@@ -112,7 +111,7 @@
     @media screen and (max-width: 800px) {
 
         .bold-text {
-            font-weight: 800;
+            font-weight: bolder;
             font-size: 24px;
         }
 
