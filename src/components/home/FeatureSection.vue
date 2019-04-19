@@ -30,7 +30,7 @@
                                     <img src="@/assets/img/s-fea-icon-5.png" />
                                 </div>
                                 <div class="card-body px-0">
-                                    <h3 class="feat-title">Discussion Place</h3>
+                                    <h3 class="feat-title">Group Discussion</h3>
                                     <p class="feat-desc">Get to meet and interact with people about APOE4</p>
                                 </div>
                             </div>

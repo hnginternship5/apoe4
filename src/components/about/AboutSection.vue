@@ -9,9 +9,8 @@
                 <div class="offset-lg-1 col-lg-6 rightCol">
                     <h6>THE INCEPTION</h6>
                     <h1>The Beginning of <br> APOE4</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                        ex ea commodo consequat. Duis aute irure dolor in
+                    <p>APOE4 was born out of the need to bridge the gap between the daily life of people who have the
+                        ApoE4 lipoprotein gene - a major pointer for late onset Alzheimer's - and medical researchers.
                     </p>
 
                         <div class="mission">
