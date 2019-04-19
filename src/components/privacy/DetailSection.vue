@@ -1,6 +1,6 @@
 <template>
-  <div class="container-fluid mt-5">
-      <div class="container py-5">
+  <div class="container-fluid">
+      <div class="container">
         <div class="row">
           <div class="col-md-12">
             <h2>Privacy</h2>

@@ -63,16 +63,6 @@
         color: #222121;
     }
 
-     /* responsive css for page */
-
-    @media screen and (max-width: 800px) {
-
-        .bold-text {
-            font-weight: 800;
-            font-size: 24px;
-        }
-
-    }
 </style>
 
 <script>

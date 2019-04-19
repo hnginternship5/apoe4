@@ -108,11 +108,6 @@
 
     @media screen and (max-width: 800px) {
 
-        .bold-text {
-            font-weight: bolder;
-            font-size: 24px;
-        }
-
         .feature-group-left,
         .feature-group-right {
             position: relative;

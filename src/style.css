@@ -59,14 +59,10 @@ a:hover {
 
 @media screen and (max-width: 800px) {
 
-    .bold-text {
-        font-weight: 800;
-        font-size: 24px;
-    }
-
     .feature-group-left,
     .feature-group-right {
         position: relative;
         top: 0;
     }
+    
 }

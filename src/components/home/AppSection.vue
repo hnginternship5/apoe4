@@ -27,10 +27,10 @@
         <!-- single feature -->
          <div class="apoe-fones col-lg-5 mb-4 text-center my-3">
 	        <div class=" column  mb-4 text-center">
-	            <img src="@/assets/img/small-samsung.png" class=" phone" style="height: 400px">
+	            <img src="@/assets/img/small-samsung.png" class="phone left-phone" style="height: 400px">
 	        </div>
 	        <div class=" column mb-4 text-center">
-	            <img src="@/assets/img/big-samsung.png" class="" style="height: 500px">
+	            <img src="@/assets/img/big-samsung.png" class="right-phone" style="height: 500px">
 	        </div>
 	     </div>
        
@@ -55,6 +55,30 @@
 	margin-top: 80px;
 	margin-right: -100px;
 }
+
+@media screen and (max-width: 800px) {
+
+    .apoe-fones img {
+      max-width: 100%;
+      width: 233px;
+      margin-right: 0;
+    }
+
+    .left-phone {
+      height: 278px;
+      position: relative;
+      right: -67px;
+    }
+
+    .right-phone {
+      height: auto;
+      position: relative;
+      left: -40px;
+    }
+}
+
+
+
 </style>
 
 <script>
