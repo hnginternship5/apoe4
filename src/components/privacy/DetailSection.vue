@@ -11,6 +11,8 @@
               all capitalized words used in this Privacy Policy have the same meanings as in our Terms of Service.</p>
           </div>
 
+
+
           <div class="col-md-12">
             <h2>APOE4 Copyright & Intellectual Property Policy</h2>
             <p>APOE4 respects the intellectual property rights of others and expects its users to do the same. It is APOE4’s policy,
