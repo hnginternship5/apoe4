@@ -14,7 +14,7 @@
         <!-- mobile -->
         <div class="col-10 mx-auto col-lg-7 text-left my-3">
         <h6 class="title-heading mt-5 text-uppercase">Built with precision</h6>
-        <h2 class="font-weight-bold title mt-4 text-capitalize">
+        <h2 class="bold-text">
         the APOE4 app
         </h2>
           <p class=" mx-auto text-muted">You can download our mobile application on the Apple or Google playstore to have access to numerous awesome features. We believe health is wealth, that's why our team of great researchers are working so hard everyday to provide a better experience for you while using the app. Dont forget to click one of the button below.</p>
