@@ -34,7 +34,7 @@
 			</div>
 		</div>
 		
-<button id="scrollBut" style="background-color: #E5E5E5;display:none;position:fixed;bottom:10px;right:15px;outline:none;z-index:1;border:none;border-radius:20px;padding:15px;cursor:pointer;" onclick="scrollToTop()" type="button"><i class="fa fa-arrow-up"></i></button>
+<button id="scrollBut" @click="scrollToTop" style="background-color: #E5E5E5;display:none;position:fixed;bottom:10px;right:15px;outline:none;z-index:1;border:none;border-radius:20px;padding:15px;cursor:pointer;" onclick="scrollToTop()" type="button"><i class="fa fa-arrow-up"></i></button>
   </footer>
 </template>
 
@@ -127,35 +127,34 @@
       return {
         
       }
-    },
+		},
+		mounted() {
+			//when the component is render to the dom
+			window.onscroll = function(){
+				scrollUp();};
+
+				//create scroll function, if user scrolls 40px from top, scroll button becomes visible
+				function scrollUp(){
+					if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100){
+						document.getElementById("scrollBut").style.display = "block";
+					}
+					else {
+						document.getElementById("scrollBut").style.display = "none";
+					}
+				};
+		},
     computed: {
       ...mapGetters(['links'])
     },
     methods: { 
-	
-      onClick (e, item) {
+			
+			//button event
+      scrollToTop (e, item) {
         e.stopPropagation()
-        if (item.to || !item.href) return
-      }
-window.onscroll = function(){
-scrollUp();};
-
-//create scroll function, if user scrolls 40px from top, scroll button becomes visible
-
-function scrollUp(){
-	if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100){
-		document.getElementById("scrollBut").style.display = "block";
-	}
-	else {
-		document.getElementById("scrollBut").style.display = "none";
-	}
-};
-//create function which takes user to the top upon clicking
-
-function scrollToTop(){
-	document.body.scrollTop =  0;
-	document.documentElement.scrollTop = 0;
-}
+        document.body.scrollTop =  0;
+				document.documentElement.scrollTop = 0;
+			}
+			
     }
 	
   }
