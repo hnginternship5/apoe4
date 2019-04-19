@@ -33,6 +33,8 @@
 				</div>
 			</div>
 		</div>
+		
+<button id="scrollBut" style="background-color: #222121;display:none;position:fixed;bottom:10px;right:15px;ouline:none;z-index:1;border:none;border-radius:20px;padding:15px;cursor:pointer;" onclick="scrollToTop()" type="button"><i class="fa fa-arrow-up"></i></button>
   </footer>
 </template>
 
