@@ -18,7 +18,7 @@
 					<form id="subscriber-form">
 						<h4 class="text-left">Subscribe to our newsletter</h4>
 						<input type="text" placeholder="Email address...">
-						<button class="btn btn-primary mt-3 offset-9">Subscribe</button>
+						<button class="btn btn-primary mt-3">Subscribe</button>
 					</form>
 				</div>
 			</div>
