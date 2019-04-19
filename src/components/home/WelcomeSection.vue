@@ -1,6 +1,6 @@
 <template>
   <!-- header section -->
-  <section class="welcome mb-5">
+  <section class="welcome mb-5 first-section-reset">
     <div class="container">
       <!-- end of section title -->
       <div class="row">

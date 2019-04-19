@@ -1,7 +1,7 @@
 <template>
 
   <header class="container-fluid" id="header">
-    <nav class="navbar container navbar-expand-lg px-3 py-4" >
+    <nav class="navbar container navbar-expand-lg px-3" >
        <router-link tag="a" class="col" class-active="active" to="/" exact>
         <img src="@/assets/img/logo-blue.png" style="height: 48px; max-width: 100%;" alt="logo">
       </router-link>

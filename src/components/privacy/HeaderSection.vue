@@ -1,5 +1,5 @@
 <template>
-    <div class="container-fluid" id="privacy" :style="{ backgroundImage: 'url(' + require('@/assets/img/r29.png') + ')' }">
+    <div class="container-fluid first-section-reset" id="privacy" :style="{ backgroundImage: 'url(' + require('@/assets/img/r29.png') + ')' }">
         <div class="container">
             <h1 class="font-weight-bold text-white">Privacy</h1>
             <p class="text-white">This is a sample content privacy us. This is a sample content privacy us</p>

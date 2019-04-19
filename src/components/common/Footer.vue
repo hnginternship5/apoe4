@@ -1,6 +1,6 @@
 <template>
   	<footer class="container-fluid" id="footer">
-		<div class="container py-5">
+		<div class="container py-3" style="padding-bottom: 0 !important;">
 			<div class="row">
 				<div class="col-md-5">
 					<img src="@/assets/img/logo-blue.png"  alt="logo" id="logo" class="footer-logo">
