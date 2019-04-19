@@ -1,7 +1,6 @@
 <template>
 
   <div>
-    <h1> This is contact </h1>
     <MapSection />
     <FormSection />
     <AddressSection />
