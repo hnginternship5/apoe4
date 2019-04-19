@@ -10,8 +10,8 @@
                                     <img src="@/assets/img/s-fea-icon-1.png" />
                                 </div>
                                 <div class="card-body px-0">
-                                    <h3 class="feat-title">Advanced care</h3>
-                                    <p class="feat-desc">We care for you. Please i need a content description here</p>
+                                    <h3 class="feat-title">Daily Tips</h3>
+                                    <p class="feat-desc">A daily dose on how to live better</p>
                                 </div>
                             </div>
                             <div class="card feature-card">
@@ -19,28 +19,28 @@
                                     <img src="@/assets/img/s-fea-icon-4.png" />
                                 </div>
                                 <div class="card-body px-0">
-                                    <h3 class="feat-title">Advanced care</h3>
-                                    <p class="feat-desc">We care for you. Please i need a content description here</p>
+                                    <h3 class="feat-title">Get Informed</h3>
+                                    <p class="feat-desc">Up-to-date news about ApoE4 lipoprotein gene</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6 feature-group-right">
                             <div class="card feature-card">
                                 <div class="card-header">
-                                    <img src="@/assets/img/s-fea-icon-3.png" />
+                                    <img src="@/assets/img/s-fea-icon-5.png" />
                                 </div>
                                 <div class="card-body px-0">
-                                    <h3 class="feat-title">Advanced care</h3>
-                                    <p class="feat-desc">We care for you. Please i need a content description here</p>
+                                    <h3 class="feat-title">Discussion Place</h3>
+                                    <p class="feat-desc">Get to meet and interact with people about APOE4</p>
                                 </div>
                             </div>
                             <div class="card feature-card">
                                 <div class="card-header">
-                                    <img src="@/assets/img/s-fea-icon-2.png" />
+                                    <img src="@/assets/img/s-fea-icon-3.png" />
                                 </div>
                                 <div class="card-body px-0">
-                                    <h3 class="feat-title">Advanced care</h3>
-                                    <p class="feat-desc">We care for you. Please i need a content description here</p>
+                                    <h3 class="feat-title">Map Information</h3>
+                                    <p class="feat-desc">This gives you a guide of places to visit to get more information and care</p>
                                 </div>
                             </div>
                         </div>
@@ -48,12 +48,9 @@
                 </div>
                 <div class="offset-md-2 col-md-5 py-5 text-right">
                     <p style="text-transform: uppercase; font-weight: 500;">Who we are</p>
-                    <h2 class="bold-text">Paving the way <br> Forward</h2>
-                    <p class="feat-desc-long">Lorem ipsum dolor sit amet, consectetur adipiscing 
-                        elit, sed do eiusmod tempor incididunt ut labore et 
-                        dolore magna aliqua Lorem ipsum dolor sit amet, 
-                        consectetur adipiscing elit, sed do eiusmod tempor i
-                        ncididunt ut labore et dolore magna aliqua</p>
+                    <h2 class="bold-text">Paving the <br> Way </h2>
+                    <p class="feat-desc-long">ApoE4 is a personal monitoring/analysis application for patients who have the ApoE4 lipoprotein gene
+                        - a major pointer for late onset Alzheimer's</p>
                 </div>
             </div>
         </div>
