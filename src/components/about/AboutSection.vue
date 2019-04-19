@@ -9,16 +9,13 @@
                 <div class="offset-lg-1 col-lg-6 rightCol">
                     <h6>THE INCEPTION</h6>
                     <h1>The Beginning of <br> APOE4</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                        ex ea commodo consequat. Duis aute irure dolor in
+                    <p>Alzheimer's is the most common cause of dementia, a general term for memory loss and other cognitive abilities serious enough to interfere with daily life. Therefore we decide to to build an app APOE4 to control this disease.
                     </p>
 
                         <div class="mission">
                             <p><img class="left doc" src="https://res.cloudinary.com/dx6ol2ale/image/upload/v1555509167/destination-icon-1.png" alt="">
                                 <span class="highlight">Our Mission</span> <br>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                                Eliminating Alzheimer's disease by advancing research; providing and enhancing care and support to all affected ; and reducing the risk of dementia by promoting brain health.
                             </p>
                         </div>
 
@@ -27,8 +24,7 @@
                          <div class="vision">
                             <p><img class="left steth" src="https://res.cloudinary.com/dx6ol2ale/image/upload/v1555509167/destination-icon-2.png" alt="">
                                 <span class="highlight">Our Vision</span> <br>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                                A world without the disease of Alzheimer
                         </p>
                     </div>
                 </div>
