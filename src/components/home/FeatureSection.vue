@@ -30,7 +30,7 @@
                                     <img src="@/assets/img/s-fea-icon-5.png" />
                                 </div>
                                 <div class="card-body px-0">
-                                    <h3 class="feat-title">Discussion Place</h3>
+                                    <h3 class="feat-title">Group Discussion</h3>
                                     <p class="feat-desc">Get to meet and interact with people about APOE4</p>
                                 </div>
                             </div>
@@ -46,6 +46,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="offset-md-2 col-md-5 py-5 text-right">
                     <p style="text-transform: uppercase; font-weight: 500;">Who we are</p>
                     <h2 class="bold-text">Paving the <br> Way </h2>

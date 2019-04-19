@@ -9,8 +9,10 @@
                 <div class="offset-lg-1 col-lg-6 rightCol">
                     <h6>THE INCEPTION</h6>
                     <h1>The Beginning of <br> APOE4</h1>
-                    <p>Alzheimer's is the most common cause of dementia, a general term for memory loss and other cognitive abilities serious enough to interfere with daily life. Therefore we decide to to build an app APOE4 to control this disease.
+                    <p>APOE4 was born out of the need to bridge the gap between the daily life of people who have the
+                        ApoE4 lipoprotein gene - a major pointer for late onset Alzheimer's - and medical researchers.
                     </p>
+
 
                         <div class="mission">
                             <p><img class="left doc" src="https://res.cloudinary.com/dx6ol2ale/image/upload/v1555509167/destination-icon-1.png" alt="">
