@@ -5,12 +5,12 @@
             <h1 class="team-title">Meet the Team</h1>
             <h3 class="team-desc">The team ready and waiting to talk about the new APoe4 App and subsequent ideas.</h3>
           <div id="img-area">
-	            <div class="team-member"><img src="@/assets/img/team/letoya2.jpg" class="rounded-circle py-5"><h4 class="member-name">Osato Letoya Joy</h4><p>Team Lead</p></div>
+              <div class="team-member"><img src="@/assets/img/team/jeff.jpg" class="rounded-circle py-5"><h4 class="member-name">Jeffrey Ogah</h4><p>Team Lead</p></div>
+              <div class="team-member"><img src="@/assets/img/team/letoya2.jpg" class="rounded-circle py-5"><h4 class="member-name">Osato Letoya Ojo</h4><p>Assistant Team Lead</p></div>
 	            <div class="team-member"><img src="@/assets/img/team/s3.jpg" class="rounded-circle py-5"><h4 class="member-name">Seyi Imanah</h4><p>Front-End</p></div>
 	            <div class="team-member"><img src="@/assets/img/team/ahmzyjazzy.jpg" class="rounded-circle py-5"><h4 class="member-name">Ahmed Olarenwaju</h4><p>Front-End</p></div>
 	            <div class="team-member"><img src="@/assets/img/team/john.jpg" class="rounded-circle py-5"><h4 class="member-name">John Ademoye</h4><p>Front-End</p></div>
 	            <div class="team-member"><img src="@/assets/img/team/zazah.jpg" class="rounded-circle py-5"><h4 class="member-name">Abdulhakeem Abdulazeez</h4><p>Front-End</p></div>
-	            <div class="team-member"><img src="@/assets/img/team/jeff.jpg" class="rounded-circle py-5"><h4 class="member-name">Jeffrey Ogah</h4><p>Developer</p></div>
         </div>
         </div>
     </div>
