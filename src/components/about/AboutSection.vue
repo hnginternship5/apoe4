@@ -13,6 +13,7 @@
                         ApoE4 lipoprotein gene - a major pointer for late onset Alzheimer's - and medical researchers.
                     </p>
 
+
                         <div class="mission">
                             <p><img class="left doc" src="https://res.cloudinary.com/dx6ol2ale/image/upload/v1555509167/destination-icon-1.png" alt="">
                                 <span class="highlight">Our Mission</span> <br>
