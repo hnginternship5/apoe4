@@ -57,9 +57,8 @@
     }
 
     .bold-text {
-        font-weight: 800;
-        font-size: 45px;
-        line-height: normal;
+        font-weight: bolder;
+        line-height: 50px;
         text-align: left;
         color: #222121;
     }

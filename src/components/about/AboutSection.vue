@@ -38,7 +38,6 @@
 </template>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css?family=Poppins');
 
 .left{
     float:left;
