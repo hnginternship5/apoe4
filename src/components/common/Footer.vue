@@ -129,7 +129,7 @@
       }
 		},
 		mounted() {
-			//when the component is render to the dom
+			//when the component is render to the dom then expose this function
 			window.onscroll = function(){
 				scrollUp();};
 
@@ -149,7 +149,7 @@
     methods: { 
 			
 			//button event
-      scrollToTop (e, item) {
+      scrollToTop (e) {
         e.stopPropagation()
         document.body.scrollTop =  0;
 				document.documentElement.scrollTop = 0;

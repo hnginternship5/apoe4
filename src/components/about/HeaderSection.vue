@@ -2,7 +2,7 @@
     <div class="container-fluid" id="about" :style="{ backgroundImage: 'url(' + require('@/assets/img/r29.png') + ')' }">
         <div class="container">
             <h1 class="font-weight-bold text-white">About</h1>
-            <p class="text-white">Imagine being able to monitor your health right from your home</p>
+            <p class="text-white">Leading the way in Alzheimers Reasearch</p>
         </div>
     </div>
 </template>

@@ -1,48 +1,42 @@
 <template>
     <div class="container-fluid">
-        <div class="container">
+        <div class="row">
             <!-- ALL COMPONENT MARKUP GOES HERE-->
-            
-            <p class="contact" style="text-align:center; margin-top:30px">Contact us to find out more on how we can help you better</p>
-            	<br></br>
-						<form action="#">
-
-								<section class="details">
-									<div>
-										<div>
-											<label for="name">Name</label>
-										</div>
-										<input type="text" 
-											name="name" 
-											class="user-name"
-											placeholder="Name" 
-										>
-									</div>
-
-									<div>
-										<div>
-											<label for="email">Email</label>
-										</div>
-										<input type="email" 
-											name="email" 
-											class="user-email"
-											placeholder="Email" 
-										>
-									</div>
-								</section>
-
-								<div>
-									<div>
-										<label for="message">Message</label>
-									</div>
-									<textarea name="message" id="" cols="70" rows="20"></textarea>
+            <div class="col-md-2">
+			</div>
+			<div class="col-md-8 contact-form">
+				<div class="contact-form-details text-center">
+					<h1 class="contact-form-heading">Contact</h1>
+					<p class="contact-form-text">Contact us to find out more or how we can help you better.</p>
+				</div>
+				
+				<div class="form">
+					<form>
+							<div class="row">
+								<div class="form-group col-md-6 mt-4">
+									<label for="name " class="label">Name</label>
+									<input type="text" class="form-control input" id="name" placeholder="">
 								</div>
-
-								<div>
-									<input type="submit" value="SEND" id="sub">
+								<div class="form-group col-md-6 mt-4">
+									<label for="email " class="label">E-mail</label>
+									<input type="email" class="form-control input" id="email" placeholder="">
 								</div>
+							</div>
+							<div class="form-group mt-4">
+								<label for="message " class="label">Message</label>
+								<textarea class="form-control input" id="message" rows="9"></textarea>
+							</div>
+							<div class="text-center">
+							<button type="submit" class="btn btn-contact">Send</button>
+
+							</div>
 						
 					</form>
+				</div>
+			</div>
+			<div class="col-md-2">
+			</div>
+						
 				
         </div>
     </div>
@@ -50,75 +44,57 @@
 
 <style scoped>
 
-	section {
-		display: flex;
-		justify-content: space-between;
-		width: 50%;
-		margin: 5% auto;
-		text-align: center;
+	.contact-form{
+		padding: 70px;
+		background: #FFFFFF;
+		box-shadow: 0px 1px 40px rgba(0, 0, 0, 0.25);
+		border-radius: 11px;
+		margin-top: -140px;
 	}
 
+	.contact-form-heading{
+		font-style: normal;
+		font-weight: bold;
+		font-size: 35px;
+		line-height: normal;
+		padding-bottom: 15px;
 
-	form {
-		border: 2px solid #F2F2F2;
-		width: 80%;
-		text-align: center;
-		margin: auto;
+		color: #222121;
 	}
-	.user-name, .user-email {
-		width: 100%;
-	}
+	.contact-form-text{
+		font-style: normal;
+		font-size: 18px;
+		line-height: normal;
 
-	p{
-		font-size:2em;
-		font-weight:bold;
-	}
-
-	#sub {
-		border: 1px solid #1B8CFB;
-		background-color: #1B8CFB;
-		color: white;
-		border-radius: 10px 10px 10px 10px;
-		width:15%;
-		font-weight: 600;
-	  font-family: 'Open Sans', sans-serif;
-	  font-size: 18px;
-	  text-align: center;
-	  text-indent: 5px;
-	  cursor: pointer;
-	  display: block;
-	  margin: 5px auto;
-	  margin-bottom: 40px;
+		color: #000000;
 	}
 
-	label {
-		font-size: 1.3rem;
+	.contact-form .label{
+		font-style: normal;
+		font-size: 16px;
+		line-height: normal;
+		padding-bottom: 5px;
+		color: #000000;
+			}
+	.contact-form .input {
+		background: #FAFAFA;
+		border: 1px solid #BCBCBC;
+		border-radius: 5px;
+		
 	}
 
-	h3{
-		padding-top:50px;
-		font-weight:600;
+	.btn-contact{
+		background: #1B8CFB;
+		border-radius: 10px;
+		padding: 10px 30px;
+		font-style: normal;
+		font-weight: bolder;
+		font-size: 14px;
+		line-height: normal;
+		text-transform: Uppercase;
+		color: #FFFFFF;
+		margin-top: 30px;
 	}
-
-	textarea {
-		-webkit-appearance: none;
-		-moz-appearance: none;
-		background-color:#F2F2F2;
-		appearance: none;
-		font: 15px/1 'Open Sans', sans-serif;
-		color: #333;
-		-webkit-font-smoothing: antialiased;
-		-moz-osx-font-smoothing: grayscale;
-
-		border: 1px solid lightgrey;  
-		border-radius: 3px;   
-		box-shadow: none;   
-		outline: none;   
-		margin: 0;   
-		box-sizing: border-box; 
-		padding-bottom: 0;
-	}
-
 </style>
 
 <script>
