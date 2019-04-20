@@ -148,12 +148,12 @@
     },
     methods: { 
 			
-			//button event
-      scrollToTop (e) {
-        e.stopPropagation()
-        document.body.scrollTop =  0;
-				document.documentElement.scrollTop = 0;
-			}
+		//button event
+		scrollToTop (e) {
+			e.stopPropagation()
+			document.body.scrollTop =  0;
+			document.documentElement.scrollTop = 0;
+		}
 			
     }
 	
