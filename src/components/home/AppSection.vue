@@ -1,14 +1,7 @@
 <template>
     <section class="mobile py-5" id="mobile">
     <div class="container">
-      <!-- section title -->
-      <div class="row col-10 mx-auto mb-5">
-        <div class="mx-auto">
-          
-         <div class="feature-underline"></div>
-        </div>
-      </div>
-      <!-- end of section title -->
+      
       <div class="row">
        
         <!-- mobile -->

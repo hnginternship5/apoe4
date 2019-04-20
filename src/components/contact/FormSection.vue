@@ -11,20 +11,20 @@
 				</div>
 				
 				<div class="form">
-					<form>
+					<form method="post" @submit.prevent="sendContactMail">
 							<div class="row">
 								<div class="form-group col-md-6 mt-4">
 									<label for="name " class="label">Name</label>
-									<input type="text" class="form-control input" id="name" placeholder="">
+									<input type="text" class="form-control input" id="name" placeholder="" name="" value="" v-model="name">
 								</div>
 								<div class="form-group col-md-6 mt-4">
 									<label for="email " class="label">E-mail</label>
-									<input type="email" class="form-control input" id="email" placeholder="">
+									<input type="email" class="form-control input" id="email" placeholder="" name="" value="" v-model="email">
 								</div>
 							</div>
 							<div class="form-group mt-4">
 								<label for="message " class="label">Message</label>
-								<textarea class="form-control input" id="message" rows="9"></textarea>
+								<textarea class="form-control input" id="message" rows="9" name="" value="" v-model="message"></textarea>
 							</div>
 							<div class="text-center">
 							<button type="submit" class="btn btn-contact">Send</button>
@@ -98,11 +98,30 @@
 </style>
 
 <script>
+import axios from 'axios';
+
 export default {
     data() {
         return {
-            
+			name: '',
+			email: '',
+			message: '', 
+       		show: false 
         }
-    },
+	},
+	methods: {
+		sendContactMail (e,value){
+			e.preventDefault();
+			alert('testing this form');
+			return;
+			axios.post('https://api.apoe4.app/api/v1/mails/contact-form', 
+				{ name: this.name, email: this.email, message: this.message },
+				{ 
+					headers: { 
+						'Content-type': 'application/x-www-form-urlencoded',
+				}
+			}).then(response => console.log('response is: ', JSON.stringify(response, null, 2)) );
+		}
+	}
 }
 </script>
