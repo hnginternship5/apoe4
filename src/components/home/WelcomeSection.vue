@@ -1,22 +1,22 @@
 <template>
   <!-- header section -->
-  <section class="welcome mb-5 first-section-reset">
+  <section class="container-fluid welcome mb-5 first-section-reset">
     <div class="container">
       <!-- end of section title -->
       <div class="row">
         <!-- featured info -->
-        <div class="col-10 mx-auto col-lg-8 featured-info mt-5 my-3">
+        <div class="col-12 mx-auto col-lg-8 featured-info mt-5 my-3">
           <div class="row height-max align-items-left">
             <div class="col text-left pr-5">
                <h6 class="title-heading mt-5 text-uppercase">introducing apoe4</h6>
-              <h2 class="mt-4 bold-text">Leading the way<br> in Alzheimer's Reasearch</h2>
+              <h2 class="mt-4 bold-text">Leading the way<br class="hide-sm-sc"> in Alzheimer's Reasearch</h2>
               <p class="mt-4 feat-desc-long">A progressive disease that destroys memory and other important mental functions.</p>
               <router-link tag="a" class="btn btn-primary btn-lg mt-5" role="button" class-active="active" to="/contact" exact>Learn more</router-link>
             </div>
           </div>
         </div>
         <!-- featured img -->
-        <div class="col-10 mx-auto col-lg-4 featured-img align-self-center mt-5 my-3">
+        <div class="col-12 mx-auto col-lg-4 featured-img align-self-center mt-5 my-3">
           <!-- img container -->
           <div class="img-container">
             <img src="@/assets/img/header-artwork.png" alt="" class="img-fluid featured-photo">
