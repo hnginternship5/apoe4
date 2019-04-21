@@ -19,11 +19,11 @@
         <!-- end of single feature -->
         <!-- single feature -->
          <div class="apoe-fones col-lg-5 mb-4 text-center my-3">
-	        <div class=" column  mb-4 text-center">
-	            <img src="@/assets/img/small-samsung.png" class="phone left-phone" style="height: 400px">
+	        <div class="mb-4 text-center left-column">
+	            <img src="@/assets/img/small-samsung.png" class="phone left-phone">
 	        </div>
-	        <div class=" column mb-4 text-center">
-	            <img src="@/assets/img/big-samsung.png" class="right-phone" style="height: 500px">
+	        <div class="mb-4 text-center right-column">
+	            <img src="@/assets/img/big-samsung.png" class="right-phone">
 	        </div>
 	     </div>
        
@@ -39,34 +39,43 @@
   justify-content: center;
 }
 
-.column {
- flex: 25%;
- padding: 5px;
+.left-column {
+  align-self: center;
 }
 
-.phone {
-	margin-top: 80px;
-	margin-right: -100px;
+.left-column img {
+  position: relative;
+  right: -100px;
+}
+
+.left-phone {
+  height: 400px;
+}
+
+.right-phone {
+  height: 500px;
 }
 
 @media screen and (max-width: 800px) {
 
-    .apoe-fones img {
-      max-width: 100%;
-      width: 233px;
-      margin-right: 0;
+    .apoe-fones {
+      display: grid;
+      grid-template-columns: 5fr 2fr;
+      width: 100vW;
     }
 
     .left-phone {
-      height: 278px;
-      position: relative;
-      right: -67px;
+      height: 263px;
+      width: 50%;
+      position: absolute !important;
+      top: 8%;
+      left: 0;
+      right: 0;
     }
 
     .right-phone {
-      height: auto;
-      position: relative;
-      left: -40px;
+      width: 209px;
+      height: 300px;
     }
 
     .download-icon {
