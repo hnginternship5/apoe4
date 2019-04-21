@@ -10,36 +10,20 @@
         <i class="fas fa-bars"></i>
       </span>
     </button>
-    <!--  -->
     <div class="collapse navbar-collapse justify-content-end" id="myNav">
       <ul class="navbar-nav">
-        <li class="nav-item active px-2">
-          <a href="#navBar" class="nav-link text-uppercase">
-            Home
-          </a>
+        <li
+            v-for="(link, i) in links"
+            :key="i"
+            class="col"
+            @click="closeNav" 
+          >
+            <router-link tag="a" class="nav-link text-uppercase" class-active="active" :to="link.to" exact>{{ link.text }}</router-link>
         </li>
-        <li class="nav-item px-2">
-          <a href="features.html" class="nav-link text-uppercase">
-            about
-          </a>
-        </li>
-        <li class="nav-item px-2">
-          <a href="#mobile" class="nav-link text-uppercase">
-            contact
-          </a>
-        </li>
-        <li class="nav-item pl-2 pr-5">
-          <a href="contact.html" class="text-uppercase nav-link">
-            privacy
-          </a>
-        </li>
-        <li class="nav-item nav-btn ">
-          <a href="contact.html" class="text-uppercase nav-link btn-lg btn-primary btn px-5" role="button">
-            Get App
-          </a>
+        <li>
+          <a class="btn button" class-active="active" href="#">Get app</a>
         </li>
       </ul>
-      <!-- end of nav element -->
     </div>
     </div>
   </nav>
@@ -57,16 +41,12 @@ body {
   line-height: 2rem;
 }
 
-bg-default, navbar-default {
+.bg-default, .navbar-default {
   background-color: #fff!important;
 }
 
-#logo {
-  
-}
-
- .navbar-brand img {
-  height: 64px;
+.navbar-brand img {
+  height: 48px;
   max-width: 100%;
 }
 
@@ -83,12 +63,13 @@ bg-default, navbar-default {
 .navbar-light .navbar-nav .nav-link{
   color: var(--mainBlack);
 }
-.nav-item.active {
+.nav-link.active,
+.router-link-active {
   color: var(--mainBlue) !important;
   /*border-bottom: 4px solid #6c63ff;*/
 }
 
-.nav-item.active a {
+.nav-link.active a {
   color: var(--mainBlue) !important;
 }
 
@@ -133,23 +114,13 @@ a.btn {
       ...mapGetters(['links'])
     },
     methods: {
-      onClick (e, item) {
+      closeNav (e, item) {
         e.stopPropagation()
-        if (item.to || !item.href) return
+        const nav = document.querySelector('.collapse')
+        if (!nav.classList.contains('show')) return
+        nav.classList.remove('show');
       }
     }
   }
-
-  window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-    document.getElementById("navbar").style.padding = "30px 10px";
-    document.getElementById("logo").style.fontSize = "25px";
-  } else {
-    document.getElementById("navbar").style.padding = "80px 10px";
-    document.getElementById("logo").style.fontSize = "35px";
-  }
-}
   
 </script>
