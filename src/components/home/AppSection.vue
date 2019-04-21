@@ -1,15 +1,15 @@
 <template>
-    <section class="mobile py-5" id="mobile">
+    <section class="container-fluid py-5">
     <div class="container">
       
       <div class="row">
        
         <!-- mobile -->
-        <div class="col-10 mx-auto col-lg-7 text-left my-3">
-        <h6 class="title-heading mt-5 text-uppercase">Built with precision</h6>
-        <h2 class="bold-text">
-        the APOE4 app
-        </h2>
+        <div class="col-12 mx-auto col-lg-7 text-left my-3">
+          <h6 class="title-heading mt-5 text-uppercase">Built with precision</h6>
+          <h2 class="bold-text">
+          the APOE4 app
+          </h2>
           <p class="mx-auto text-muted">APOE-4 comes as a downloadable mobile app for iOS and Android devices. Our app is specially designed to offer users a reliable approach towards understanding the ins and outs of the Alzheimer's disease. Its user-friendly interface aids seamless health tracking and delivers the best tips for health improvement. Get the app on your mobile device today. </p>
           <div class="col download-icon px-0">
             <a href="#"><img src="@/assets/img/apple-icon.png" class="img-fluid my-3" style="width: 150px; height:53px"></a>
