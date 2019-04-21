@@ -15,16 +15,16 @@
 					</ul>
 				</div>
 				<div class="col-md-5 offset-md-2 text-right">
-					<form id="subscriber-form">
+					<form id="subscriber-form" @submit.prevent="sendSubscriberMail">
 						<h4 class="text-left">Subscribe to our newsletter</h4>
-						<input type="text" placeholder="Email address...">
-						<button class="btn btn-primary mt-3">Subscribe</button>
+						<input type="email" placeholder="Email address..." name="" value="" v-model="subscriber_email" required>
+						<button class="text-uppercase nav-link btn-md btn-primary mt-3">Subscribe</button>
 					</form>
 				</div>
 			</div>
 			<div class="row">
-				<div id="footer-text" class="col-md-12 py-3">
-					<span class="col-md-4" style="color:#fff;font-size:12px;">&copy; 2019, All rights reserved</span>
+				<div id="footer-text" class="col-md-12 py-3 mt-2">
+					<span class="col-md-4 copyright-text">&copy; 2019, All rights reserved</span>
 					<div id="social" class="col-md-2 offset-md-6">
 						<a href=""><img src="@/assets/img/fb.png" alt="facebook" /></a>
 						<a href=""><img src="@/assets/img/tw.png" alt="twitter" /></a>
@@ -114,9 +114,42 @@
 		width: 16px;
 	}
 
+	.copyright-text {
+		color:#fff;
+		font-size:12px;
+	}
+
+	
+	@media screen and (max-width: 800px) {
+		
+		#footer-text {
+			flex-direction: column;
+		}
+
+		.copyright-text {
+			order: 1;
+			margin-top: 13px;
+		}
+
+		#social {
+			width: 200px;
+			order: 0;
+		}
+
+		#social img {
+			width: 2.5rem;
+			height: auto;
+		}
+
+		#subscriber-form button {
+		    width: 100%;
+		}
+	}
+
 
 </style>
 <script>
+import axios from 'axios';
 
  // Utilities
   import {
@@ -125,37 +158,56 @@
   export default {
     data() {
       return {
-        
+        subscriber_email: ''
       }
 		},
 		mounted() {
 			//when the component is render to the dom then expose this function
 			window.onscroll = function(){
-				scrollUp();};
-
-				//create scroll function, if user scrolls 40px from top, scroll button becomes visible
-				function scrollUp(){
-					if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100){
-						document.getElementById("scrollBut").style.display = "block";
-					}
-					else {
-						document.getElementById("scrollBut").style.display = "none";
-					}
-				};
+				scrollUp();
+			};
+			//create scroll function, if user scrolls 40px from top, scroll button becomes visible
+			function scrollUp(){
+				if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100){
+					document.getElementById("scrollBut").style.display = "block";
+				}
+				else {
+					document.getElementById("scrollBut").style.display = "none";
+				}
+			};
 		},
-    computed: {
-      ...mapGetters(['links'])
-    },
-    methods: { 
-			
-		//button event
-		scrollToTop (e) {
-			e.stopPropagation()
-			document.body.scrollTop =  0;
-			document.documentElement.scrollTop = 0;
+		computed: {
+			...mapGetters(['links'])
+		},
+		methods: { 
+				
+			//button event
+			scrollToTop (e) {
+				e.stopPropagation()
+				document.body.scrollTop =  0;
+				document.documentElement.scrollTop = 0;
+			},
+			sendSubscriberMail (e,value){
+				e.preventDefault();
+				this.alertDisplay();
+				this.resetForm();
+				return;
+				axios.post('https://api.apoe4.app/api/v1/mails/contact-form', 
+					{ email: this.email },
+					{ 
+						headers: { 
+							'Content-type': 'application/x-www-form-urlencoded',
+					}
+				}).then(response => console.log('response is: ', JSON.stringify(response, null, 2)) );
+			},
+			alertDisplay() {
+				this.$swal('Newsletter', 'Thanks for subscribing', 'success');
+			},
+			resetForm(){
+				this.subscriber_email = '';
+			}
 		}
 			
-    }
 	
   }
 </script>

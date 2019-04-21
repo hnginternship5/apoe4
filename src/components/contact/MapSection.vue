@@ -1,5 +1,5 @@
 <template>
-    <div class="container-fluid px-0">
+    <div class="container-fluid px-0 py-4">
         <google-map />
     </div>
 </template>

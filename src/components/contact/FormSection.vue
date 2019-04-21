@@ -15,16 +15,16 @@
 							<div class="row">
 								<div class="form-group col-md-6 mt-4">
 									<label for="name " class="label">Name</label>
-									<input type="text" class="form-control input" id="name" placeholder="" name="" value="" v-model="name">
+									<input type="text" class="form-control input" id="name" placeholder="" name="" value="" v-model="name" required>
 								</div>
 								<div class="form-group col-md-6 mt-4">
 									<label for="email " class="label">E-mail</label>
-									<input type="email" class="form-control input" id="email" placeholder="" name="" value="" v-model="email">
+									<input type="email" class="form-control input" id="email" placeholder="" name="" value="" v-model="email" required>
 								</div>
 							</div>
 							<div class="form-group mt-4">
 								<label for="message " class="label">Message</label>
-								<textarea class="form-control input" id="message" rows="9" name="" value="" v-model="message"></textarea>
+								<textarea class="form-control input" id="message" rows="9" name="" value="" v-model="message" required></textarea>
 							</div>
 							<div class="text-center">
 							<button type="submit" class="btn btn-contact">Send</button>
@@ -112,7 +112,8 @@ export default {
 	methods: {
 		sendContactMail (e,value){
 			e.preventDefault();
-			alert('testing this form');
+			this.alertDisplay();
+			this.resetForm();
 			return;
 			axios.post('https://api.apoe4.app/api/v1/mails/contact-form', 
 				{ name: this.name, email: this.email, message: this.message },
@@ -121,6 +122,15 @@ export default {
 						'Content-type': 'application/x-www-form-urlencoded',
 				}
 			}).then(response => console.log('response is: ', JSON.stringify(response, null, 2)) );
+		},
+		alertDisplay() {
+			this.$swal('Contact Us', 'Thanks for contacting us, we hope to get back to you soon.', 'success');
+		},
+		resetForm(){
+			this.name = '';
+			this.email = '';
+			this.message = '';
+			this.show = false;
 		}
 	}
 }

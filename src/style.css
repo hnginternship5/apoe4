@@ -54,6 +54,14 @@ a:hover {
     top: -30px;
 }
 
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+    outline-width: 0;
+}
+
  /* responsive css for page */
 
 @media screen and (max-width: 800px) {
@@ -63,5 +71,21 @@ a:hover {
         position: relative;
         top: 0;
     }
+
+    .hide-sm-sc {
+        display: none;
+    }
     
+    .footer-text {
+        flex-direction: column;
+    }
+
+    #social {
+        width: 200px;
+    }
+
+    #social img {
+        width: 2.5rem;
+        height: auto;
+    }
 }

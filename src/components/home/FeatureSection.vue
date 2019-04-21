@@ -49,7 +49,7 @@
 
                 <div class="offset-md-2 col-md-5 py-5 text-right">
                     <p style="text-transform: uppercase; font-weight: 500;">Who we are</p>
-                    <h2 class="bold-text">Paving the <br> Way </h2>
+                    <h2 class="bold-text">Paving the <br class="hide-sm-sc"> Way </h2>
                     <p class="feat-desc-long">ApoE4 is a personal monitoring/analysis application for patients who have the ApoE4 lipoprotein gene
                         - a major pointer for late onset Alzheimer's</p>
                 </div>
