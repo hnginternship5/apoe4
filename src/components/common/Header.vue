@@ -21,7 +21,7 @@
             <router-link tag="a" class="nav-link text-uppercase" class-active="active" :to="link.to" exact>{{ link.text }}</router-link>
         </li>
         <li>
-          <a class="btn button" class-active="active" href="#">Get app</a>
+          <a class="text-uppercase nav-link btn-lg btn-primary btn px-5" role="button" href="#">Get app</a>
         </li>
       </ul>
     </div>
