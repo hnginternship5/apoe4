@@ -26,9 +26,9 @@
 				<div id="footer-text" class="col-md-12 py-3 mt-2">
 					<span class="col-md-4 copyright-text">&copy; 2019, All rights reserved</span>
 					<div id="social" class="col-md-2 offset-md-6">
-						<a href=""><img src="@/assets/img/fb.png" alt="facebook" /></a>
-						<a href=""><img src="@/assets/img/tw.png" alt="twitter" /></a>
-						<a href=""><img src="@/assets/img/Inst.png" alt="instagram" /></a>
+						<a href="#"><img src="@/assets/img/fb.png" alt="facebook" /></a>
+						<a href="#"><img src="@/assets/img/tw.png" alt="twitter" /></a>
+						<a href="#"><img src="@/assets/img/Inst.png" alt="instagram" /></a>
 					</div>
 				</div>
 			</div>
