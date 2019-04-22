@@ -92,6 +92,7 @@
 	#subscriber-form button {
 		background: #1B8CFB;
 		border-radius: 33px;
+		color: #fff;
 	}
 
 	#footer-text {

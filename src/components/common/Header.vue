@@ -36,11 +36,6 @@
   --mainBlack:#222121;
 }
 
-body {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .bg-default, .navbar-default {
   background-color: #fff!important;
 }
