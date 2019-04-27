@@ -1,27 +1,28 @@
 <template>
 	<footer class="container-fluid" id="footer">
-		<div class="row pt-5 pb-5 pl-3 pr-3">
-			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pt-5">
-				<div class="logo-img">
-					<img src="@/assets/img/logo-blue.png" alt="logo" id="logo" class="footer-logo">
+		<div class="container pt-3 pb-3">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pt-5">
+					<div class="logo-img">
+						<img src="@/assets/img/logo-blue.png" alt="logo" id="logo" class="footer-logo">
+					</div>
+
+					<div class="footer-links">
+						<ul class="pt-5 pl-0 d-flex">
+							<li v-for="(link, i) in links" :key="i" class="mr-3 p-0">
+								<router-link tag="a" class="" class-active="active" :to="link.to" exact>{{ link.text }}</router-link>
+							</li>
+						</ul>
+					</div>
 				</div>
 
-				<div class="footer-links">
-					<ul class="pt-5 pl-0 d-flex">
-						<li v-for="(link, i) in links" :key="i" class="mr-3 p-0">
-							<router-link tag="a" class="" class-active="active" :to="link.to" exact>{{ link.text }}</router-link>
-						</li>
-					</ul>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pt-5">
+					<form id="subscriber-form" @submit.prevent="sendSubscriberMail">
+						<h6 class="text-white mb-3">Subscribe to our newsletter</h6>
+						<input class="p-2" type="email" placeholder="Email address..." name="" value="" v-model="subscriber_email" required>
+						<button class="text-uppercase mt-4 btn-primary p-2">Subscribe</button>
+					</form>
 				</div>
-			</div>
-
-
-			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pt-5">
-				<form id="subscriber-form" @submit.prevent="sendSubscriberMail">
-					<h6 class="text-white mb-3">Subscribe to our newsletter</h6>
-					<input class="p-2" type="email" placeholder="Email address..." name="" value="" v-model="subscriber_email" required>
-					<button class="text-uppercase mt-4 btn-primary p-2">Subscribe</button>
-				</form>
 			</div>
 
 			<div class="row col-12 pt-5">
