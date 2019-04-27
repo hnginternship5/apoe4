@@ -48,8 +48,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ## Technology Stack
 
 * [VueJS](https://vuejs.org/)
-* [Firebase](https://firebase.google.com/)
 * [Service Worker & PWA](https://www.npmjs.com/package/vue-pwa)
+* [Google Map](https://www.npmjs.com/package/vue2-google-maps)
 
 ### View Website Built with Project 
 
