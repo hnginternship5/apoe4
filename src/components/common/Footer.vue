@@ -1,6 +1,6 @@
 <template>
-	<footer class="container-fluid" id="footer">
-		<div class="container pt-3 pb-3">
+	<footer class="pt-3 pb-3" id="footer">
+		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pt-5">
 					<div class="logo-img">
@@ -104,20 +104,20 @@
 	/*	placeholder styling*/
 	::placeholder {
 		/* Chrome, Firefox, Opera, Safari 10.1+ */
-		padding-right: 15px;
+		padding-left: 15px;
 		font-size: 14px;
 		/* Firefox */
 	}
 
 	:-ms-input-placeholder {
 		/* Internet Explorer 10-11 */
-		padding-right: 15px;
+		padding-left: 15px;
 		font-size: 14px;
 	}
 
 	::-ms-input-placeholder {
 		/* Microsoft Edge */
-		padding-right: 15px;
+		padding-left: 15px;
 		font-size: 14px;
 	}
 
