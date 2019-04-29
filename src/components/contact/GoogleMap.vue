@@ -1,5 +1,14 @@
 <template>
     <gmap-map
+      :options="{
+        zoomControl: false,
+        mapTypeControl: false,
+        scaleControl: false,
+        streetViewControl: false,
+        rotateControl: false,
+        fullscreenControl: false,
+        disableDefaultUi: true
+      }"
       :center="center"
       :zoom="12"
       style="width:100%;  height: 400px;" class="first-section-reset"
