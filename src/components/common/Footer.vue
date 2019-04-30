@@ -4,7 +4,7 @@
 			<div class="row">
 				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pt-5">
 					<div class="logo-img">
-						<a href="index.html"><img src="@/assets/img/logo-blue.png" alt="logo" id="logo" class="footer-logo"></a>
+						<a href="/"><img src="@/assets/img/logo-blue.png" alt="logo" id="logo" class="footer-logo"></a>
 					</div>
 
 					<div class="footer-links">

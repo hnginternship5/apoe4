@@ -2,7 +2,7 @@
    
   <nav class="navbar navbar-expand-lg px-3 bg-light navbar-light sticky-top" id="navBar">
   <div class="container">
-    <a href="index.html" class="navbar-brand">
+    <a href="/" class="navbar-brand">
       <img src="@/assets/img/logo-blue.png" alt="logo">
     </a>
     <button class="navbar-toggler" type="button" data-toggle='collapse' data-target='#myNav'>
