@@ -176,7 +176,7 @@
 				this.alertDisplay();
 				this.resetForm();
 				return;
-				axios.post('https://api.apoe4.app/api/v1/mails/contact-form', {
+				axios.post('https://api.apoe4.app/api/v1/mails/subscribe-chimp', {
 					email: this.email
 				}, {
 					headers: {
