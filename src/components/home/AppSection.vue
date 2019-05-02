@@ -13,7 +13,7 @@
           <p class="mx-auto text-muted">APOE-4 comes as a downloadable mobile app for iOS and Android devices. Our app is specially designed to offer users a reliable approach towards understanding the ins and outs of the Alzheimer's disease. Its user-friendly interface aids seamless health tracking and delivers the best tips for health improvement. Get the app on your mobile device today. </p>
           <div class="col download-icon px-0">
             <a href="#"><img src="@/assets/img/apple-icon.png" class="img-fluid my-3" style="width: 150px; height:53px"></a>
-            <a href="#"><img src="@/assets/img/google-icon.png" class="img-fluid my-3" style="width: 150px; height:53px"></a>
+            <a href="https://play.google.com/store/apps/details?id=hng.tech.apoe_4"><img src="@/assets/img/google-icon.png" class="img-fluid my-3" style="width: 150px; height:53px"></a>
           </div>
         </div>
         <!-- end of single feature -->
