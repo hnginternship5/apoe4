@@ -1,8 +1,6 @@
 <template>
-    <div class="container-fluid">
-        <div class="container">
-            <!-- ALL COMPONENT MARKUP GOES HERE-->
-        </div>
+    <div class="container-fluid px-0 py-4">
+        <google-map />
     </div>
 </template>
 
@@ -11,7 +9,12 @@
 </style>
 
 <script>
+import GoogleMap from "@/components/contact/GoogleMap";
+
 export default {
+    components: {
+        GoogleMap
+    },
     data() {
         return {
             

@@ -1,12 +1,26 @@
 <template>
-    <div class="container-fluid">
+    <div class="container-fluid first-section-reset" id="about" :style="{ backgroundImage: 'url(' + require('@/assets/img/r29.png') + ')' }">
         <div class="container">
-            <!-- ALL COMPONENT MARKUP GOES HERE-->
+            <h1 class="font-weight-bold text-white">About</h1>
+            <p class="text-white">Leading the way in Alzheimers Reasearch</p>
         </div>
     </div>
 </template>
 
 <style scoped>
+
+    #about {
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+
+    #about .container {
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+    }
 
 </style>
 
