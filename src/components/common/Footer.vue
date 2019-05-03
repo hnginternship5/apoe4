@@ -1,10 +1,10 @@
 <template>
 	<footer class="pt-3 pb-3" id="footer">
-		<div class="container">
+		<div class="container" style="padding-top:50px;">
 			<div class="row">
 				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pt-5">
 					<div class="logo-img">
-						<img src="@/assets/img/logo-blue.png" alt="logo" id="logo" class="footer-logo">
+						<a href="/"><img src="@/assets/img/logo-blue.png" alt="logo" id="logo" class="footer-logo"></a>
 					</div>
 
 					<div class="footer-links">
@@ -20,11 +20,11 @@
 					<form id="subscriber-form" @submit.prevent="sendSubscriberMail">
 						<h6 class="text-white mb-3">Subscribe to our newsletter</h6>
 						<input class="p-2" type="email" placeholder="Email address..." name="" value="" v-model="subscriber_email" required>
-						<button class="text-uppercase mt-4 btn-primary p-2">Subscribe</button>
+						<button class="text-uppercase btn mt-4 btn-primary p-2">Subscribe</button>
 					</form>
 				</div>
 			</div>
-
+			<hr style="background-color:#fff;">
 			<div class="row col-12 pt-5">
 				<div class="copyright  d-flex justify-content-start col-6">
 					<span class="copyright-text">&copy; 2019 All rights reserved</span>
@@ -176,7 +176,7 @@
 				this.alertDisplay();
 				this.resetForm();
 				return;
-				axios.post('https://api.apoe4.app/api/v1/mails/contact-form', {
+				axios.post('https://api.apoe4.app/api/v1/mails/subscribe-chimp', {
 					email: this.email
 				}, {
 					headers: {

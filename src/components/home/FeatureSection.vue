@@ -38,7 +38,7 @@
                                 <div class="card-header">
                                     <img src="@/assets/img/s-fea-icon-3.png" />
                                 </div>
-                                <div class="card-body px-0">
+                                <div class="card-body px-0" style="padding-bottom:70px;">
                                     <h3 class="feat-title">Map Information</h3>
                                     <p class="feat-desc">This gives you a guide of places to visit to get more information and care</p>
                                 </div>
@@ -49,7 +49,7 @@
 
                 <div class="offset-md-2 col-md-5 py-5 text-right">
                     <p style="text-transform: uppercase; font-weight: 500;">Who we are</p>
-                    <h2 class="bold-text">Paving the <br class="hide-sm-sc"> Way </h2>
+                    <h2 class="bold-text">Paving The  Way<br class="hide-sm-sc"> Forward  </h2>
                     <p class="feat-desc-long">ApoE4 is a personal monitoring/analysis application for patients who have the ApoE4 lipoprotein gene
                         - a major pointer for late onset Alzheimer's</p>
                 </div>
@@ -79,7 +79,7 @@
         padding: 1rem;
         margin: 0 0 2rem 0;
         border: 0px solid #fff !important;
-        box-shadow: 0px 5px 11px 15px rgba(0,64,128,0.05);
+        box-shadow: 0px 3px 8px 3px rgba(0,0,0,0.05);
     }
 
     .feature-card .card-header {
