@@ -175,7 +175,7 @@
 				e.preventDefault();
 				this.alertDisplay();
 				this.resetForm();
-				return;
+				return; //api not yet working
 				axios.post('https://api.apoe4.app/api/v1/mails/subscribe-chimp', {
 					email: this.email
 				}, {
