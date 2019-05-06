@@ -41,13 +41,13 @@
         </div>
 
         <div id="social" class="d-flex justify-content-end col-6">
-          <a href="#" class="mr-3">
+          <a href="https://www.facebook.com/apoe4" class="mr-3">
             <img src="@/assets/img/fb.png" alt="facebook">
           </a>
-          <a href="#" class="mr-3">
+          <a href="https://twitter.com/apoe4app" class="mr-3">
             <img src="@/assets/img/tw.png" alt="twitter">
           </a>
-          <a href="#" class="mr-3">
+          <a href="https://instagram.com/apoe4_" class="mr-3">
             <img src="@/assets/img/Inst.png" alt="instagram">
           </a>
         </div>
