@@ -1,25 +1,24 @@
 <template>
-
   <div>
-    <HeaderSection />
-    <DetailSection />
+    <HeaderSection/>
+    <DetailSection/>
   </div>
-  
 </template>
 
 <script>
-  import HeaderSection from '@/components/privacy/HeaderSection'
-  import DetailSection from '@/components/privacy/DetailSection'
+import HeaderSection from "@/components/privacy/HeaderSection";
+import DetailSection from "@/components/privacy/DetailSection";
 
-  export default {
-    components: {
-      HeaderSection,
-      DetailSection
-    },
-    data() {
-      return {
-        
-      }
-    },
+export default {
+  components: {
+    HeaderSection,
+    DetailSection
+  },
+  data() {
+    return {};
+  },
+  mounted() {
+    document.title = "Privacy";
   }
+};
 </script>

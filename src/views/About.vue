@@ -1,28 +1,27 @@
 <template>
-
   <div>
-    <HeaderSection />
-    <AboutSection />
-    <TeamSection />
+    <HeaderSection/>
+    <AboutSection/>
+    <TeamSection/>
   </div>
-  
 </template>
 
 <script>
-  import HeaderSection from '@/components/about/HeaderSection'
-  import AboutSection from '@/components/about/AboutSection'
-  import TeamSection from '@/components/about/TeamSection'
+import HeaderSection from "@/components/about/HeaderSection";
+import AboutSection from "@/components/about/AboutSection";
+import TeamSection from "@/components/about/TeamSection";
 
-  export default {
-    components: {
-      HeaderSection,
-      AboutSection,
-      TeamSection
-    },
-    data() {
-      return {
-        
-      }
-    },
+export default {
+  components: {
+    HeaderSection,
+    AboutSection,
+    TeamSection
+  },
+  data() {
+    return {};
+  },
+  mounted() {
+    document.title = "About";
   }
+};
 </script>
