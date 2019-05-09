@@ -11,7 +11,7 @@
                <h6 class="title-heading mt-5 text-uppercase">introducing apoe4</h6>
               <h2 class="mt-4 bold-text">Leading the way<br class="hide-sm-sc"> in Alzheimer's Reasearch</h2>
               <p class="mt-4 feat-desc-long">A progressive disease that destroys memory and other important mental functions.</p>
-              <router-link tag="a" class="btn btn-primary btn-lg mt-5" role="button" class-active="active" to="/contact" exact>Learn more</router-link>
+              <router-link tag="a" class="btn btn-primary btn-lg mt-5" role="button" class-active="active" to="/about" exact>Learn more</router-link>
             </div>
           </div>
         </div>

@@ -14,10 +14,10 @@
                     </p>
 
 
-                        <div class="mission">
+                        <div class=  "mission">
                             <p><img class="left doc" src="https://res.cloudinary.com/dx6ol2ale/image/upload/v1555509167/destination-icon-1.png" alt="">
                                 <span class="highlight">Our Mission</span> <br>
-                                Eliminating Alzheimer's disease by advancing research; providing and enhancing care and support to all affected ; and reducing the risk of dementia by promoting brain health.
+                                Providing and enhancing care and support to all affected Alzheimer's disease patients ; and reducing the risk of dementia by promoting brain health.
                             </p>
                         </div>
 
@@ -26,8 +26,8 @@
                          <div class="vision">
                             <p><img class="left steth" src="https://res.cloudinary.com/dx6ol2ale/image/upload/v1555509167/destination-icon-2.png" alt="">
                                 <span class="highlight">Our Vision</span> <br>
-                                A world without the disease of Alzheimer
-                        </p>
+                                Advancing research in Alzheimer's disease by bridging the gap between users and researchers
+                            </p>
                     </div>
                 </div>
             </div>

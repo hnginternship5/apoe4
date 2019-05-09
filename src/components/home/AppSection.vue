@@ -6,9 +6,8 @@
         <div class="col-12 mx-auto col-lg-7 text-left my-3" id="getapp">
           <h6 style="padding:8px;" class="title-heading mt-5 text-uppercase">Built with precision</h6>
           <h2 class="bold-text">The Apoe4 App</h2>
-          <p
-            class="mx-auto text-muted"
-          >APOE-4 comes as a downloadable mobile app for iOS and Android devices. Our app is specially designed to offer users a reliable approach towards understanding the ins and outs of the Alzheimer's disease. Its user-friendly interface aids seamless health tracking and delivers the best tips for health improvement. Get the app on your mobile device today.</p>
+          <p class="mx-auto text-muted">
+              APOE-4 comes as a downloadable mobile app for iOS and Android devices. Our app is specially designed to offer users a reliable approach towards understanding the ins and outs of the Alzheimer's disease. Its user-friendly interface aids seamless health tracking and delivers the best tips for health improvement. Get the app on your mobile device today.</p>
           <div class="col download-icon px-0">
             <a @click="comingSoon">
               <img
@@ -114,7 +113,7 @@ export default {
     alertDisplay() {
       this.$swal(
         "Coming soon",
-        "Apoe4 IOS app is not yet available, you will be notify by subscribing to our newsletter.",
+        "Apoe4 IOS app is not yet available, you will be notified by subscribing to our newsletter.",
         "info"
       );
     }

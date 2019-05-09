@@ -1,5 +1,6 @@
 <template>
   <div>
+
     <MapSection/>
     <FormSection/>
     <AddressSection/>
@@ -22,6 +23,7 @@ export default {
   },
   mounted() {
     document.title = "Contact";
+
   }
 };
 </script>
