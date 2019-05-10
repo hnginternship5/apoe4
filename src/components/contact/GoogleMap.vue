@@ -1,6 +1,6 @@
 <template>
-    <gmap-map
-      :options="{
+  <gmap-map
+    :options="{
         zoomControl: false,
         mapTypeControl: false,
         scaleControl: false,
@@ -9,17 +9,18 @@
         fullscreenControl: false,
         disableDefaultUi: true
       }"
-      :center="center"
-      :zoom="12"
-      style="width:100%;  height: 400px;" class="first-section-reset"
-    >
-      <gmap-marker
-        :key="index"
-        v-for="(m, index) in markers"
-        :position="m.position"
-        @click="center=m.position"
-      ></gmap-marker>
-    </gmap-map>
+    :center="center"
+    :zoom="12"
+    style="width:100%;  height: 250px;"
+    class="first-section-reset"
+  >
+    <gmap-marker
+      :key="index"
+      v-for="(m, index) in markers"
+      :position="m.position"
+      @click="center=m.position"
+    ></gmap-marker>
+  </gmap-map>
 </template>
 
 <script>
@@ -28,8 +29,8 @@ export default {
   data() {
     return {
       // default to Lagos coord to keep it simple
-      center: { lat: 6.6080, lng: 3.6218 },
-      markers: [],
+      center: { lat: 6.608, lng: 3.6218 },
+      markers: []
     };
   },
 
@@ -55,7 +56,6 @@ export default {
           lng: position.coords.longitude
         };
       });
-      
     }
   }
 };
